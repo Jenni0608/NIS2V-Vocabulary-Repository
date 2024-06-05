@@ -24,3 +24,17 @@ Authors: 	Jenni Parry
 Imported Ontologies: 	http://JP_ontology.org/assessment / http://JP_ontology.org/iso27001
 
 Extended Ontologies: 	https://w3c.github.io/dpv/dpv/
+
+DOI
+10.5281/zenodo.11490601
+Markdown
+[![DOI](https://zenodo.org/badge/810915484.svg)](https://zenodo.org/doi/10.5281/zenodo.11490600)
+reStructuredText
+.. image:: https://zenodo.org/badge/810915484.svg
+  :target: https://zenodo.org/doi/10.5281/zenodo.11490600
+HTML
+<a href="https://zenodo.org/doi/10.5281/zenodo.11490600"><img src="https://zenodo.org/badge/810915484.svg" alt="DOI"></a>
+Image URL
+https://zenodo.org/badge/810915484.svg
+Target URL
+https://zenodo.org/doi/10.5281/zenodo.11490600
