@@ -25,12 +25,4 @@ Imported Ontologies: 	http://JP_ontology.org/assessment / http://JP_ontology.org
 
 Extended Ontologies: 	https://w3c.github.io/dpv/dpv/
 
-(https://zenodo.org/records/11620548)
-DOI
-10.5281/zenodo.11620548
-HTML
-<a href="https://zenodo.org/doi/10.5281/zenodo.11490600"><img src="https://zenodo.org/badge/810915484.svg" alt="DOI"></a>
-Image URL
-https://zenodo.org/badge/810915484.svg
-Target URL
-https://zenodo.org/doi/10.5281/zenodo.11490600
+
