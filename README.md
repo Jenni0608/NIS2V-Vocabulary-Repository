@@ -25,4 +25,5 @@ Imported Ontologies: 	http://JP_ontology.org/assessment / http://JP_ontology.org
 
 Extended Ontologies: 	https://w3c.github.io/dpv/dpv/
 
-
+Details
+DOI 10.5281/zenodo.11620548
