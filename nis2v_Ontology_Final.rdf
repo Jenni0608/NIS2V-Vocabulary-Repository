@@ -51,7 +51,56 @@
     <dct:keywords>NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology</dct:keywords>
 </rdf:Description>
 	
-	
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // NIS2V Ontology - JSON-LD Metadata
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+-->
+{
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "name": "NIS2 Vocabulary",
+  "description": "NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jenni Parry"
+  },
+  "dateCreated": "2024-04-08",
+  "dateModified": "2024-06-24",
+  "identifier": "https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final",
+  "publisher": {
+    "@type": "Organization",
+    "name": "UCD"
+  },
+  "license": "https://doi.org/10.5281/zenodo.11620548",
+  "keywords": ["NIS2", "Cybersecurity", "ISO 27001", "DPV", "Risk Management", "Ontology"],
+  "url": "https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final"
+}
+
+
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // NIS2V Ontology - Dublin Core Metadata
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+-->
+<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:title>NIS2 Vocabulary</dc:title>
+    <dc:creator>Jenni Parry</dc:creator>
+    <dc:description>NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.</dc:description>
+    <dc:publisher>UCD</dc:publisher>
+    <dc:date>2024-04-08</dc:date>
+    <dc:format>application/rdf+xml</dc:format>
+    <dc:identifier>https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final</dc:identifier>
+    <dc:source>https://doi.org/10.5281/zenodo.11620548</dc:source>
+    <dc:subject>NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology</dc:subject>
+    <dc:language>en</dc:language>
+</rdf:Description>
+
 
 <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
