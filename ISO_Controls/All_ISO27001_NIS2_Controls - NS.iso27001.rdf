@@ -1,0 +1,2206 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.w3.org/2002/07/owl"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:assessment="http://JP_ontology.org/assessment#"
+         xmlns:nis2v="http://JP_ontology.org/nis2v#"
+		 xmlns:iso27001="http://JP_ontology.org/iso27001#">
+
+  <owl:Ontology rdf:about="http://JP_ontology.org/iso27001/">
+    <owl:imports rdf:resource="http://JP_ontology.org/nis2v/"/>
+    <owl:imports rdf:resource="http://JP_ontology.org/assessment/"/>
+  </owl:Ontology>
+
+
+
+
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // ISO Controls (270012022) - ISO Theme Sub-Classess and associated Controls
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<!-- http://JP_ontology.org/iso27001/ISOControl270012022 -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ISOControl270012022">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">ISO Control 27001:2022</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents the set of controls within the ISO 27001:2022 framework.</skos:definition>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ISOTheme -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ISOTheme">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOControl270012022"/>
+		<skos:prefLabel xml:lang="en">ISO Theme</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents a thematic grouping of controls within the ISO 27001:2022 framework.</skos:definition>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/OrganisationalControls -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/OrganisationalControls">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">Organisational Controls</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents the organisational controls as outlined in Annex A of ISO standards.</skos:definition>
+		<rdfs:comment xml:lang="en">Organisational Controls (Annex A)</rdfs:comment>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/PeopleControls -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/PeopleControls">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">People Controls</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents the controls related to personnel and human resources as specified in Annex A of ISO standards.</skos:definition>
+		<rdfs:comment xml:lang="en">People Controls (Annex A)</rdfs:comment>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/PhysicalControls -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/PhysicalControls">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">Physical Controls</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents the controls related to physical security measures as specified in Annex A of ISO standards.</skos:definition>
+		<rdfs:comment xml:lang="en">Physical Controls (Annex A)</rdfs:comment>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+			<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+		<!-- http://JP_ontology.org/iso27001/ImprovementControls -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ImprovementControls">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">Improvement Controls</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents the controls related to continuous improvement measures as specified in Annex A of ISO standards.</skos:definition>
+		<rdfs:comment xml:lang="en">Improvement Controls</rdfs:comment>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+			<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/SupportControls -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/SupportControls">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">Support Controls</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents the support-related controls within an organisational structure, focusing on providing necessary services and infrastructure.</skos:definition>
+		<rdfs:comment xml:lang="en">Support Controls</rdfs:comment>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/TechnologicalControls -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/TechnologicalControls">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="en">Technological Controls</skos:prefLabel>
+		<skos:definition xml:lang="en">Represents controls related to technology and information systems within an organisation, as detailed in Annex A of ISO standards.</skos:definition>
+		<rdfs:comment xml:lang="en">Technological Controls (Annex A)</rdfs:comment>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+  <!-- http://JP_ontology.org/iso27001/ContextControls -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ContextControls">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <skos:prefLabel xml:lang="en">Context Controls</skos:prefLabel>
+	    <skos:definition xml:lang="en">Represents the controls related to the context of the organization.</skos:definition>
+	    <rdfs:comment xml:lang="en">Context Controls</rdfs:comment>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/LeadershipControls -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/LeadershipControls">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <skos:prefLabel xml:lang="en">Leadership Controls</skos:prefLabel>
+	    <skos:definition xml:lang="en">Represents the controls related to leadership and commitment, policy and organizational roles, responsibilities and authorities.</skos:definition>
+	    <rdfs:comment xml:lang="en">Leadership Controls</rdfs:comment>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/PlanningControls -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/PlanningControls">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <skos:prefLabel xml:lang="en">Planning Controls</skos:prefLabel>
+	    <skos:definition xml:lang="en">Represents the controls related to the actions to address risks and opportunities, Information security risk assessment and risk treatment. Also information security objectives and planning to achieve them.</skos:definition>
+	    <rdfs:comment xml:lang="en">Planning Controls</rdfs:comment>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/OperationControls -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/OperationControls">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <skos:prefLabel xml:lang="en">Operation Controls</skos:prefLabel>
+	    <skos:definition xml:lang="en">Represents the controls related to the operational planning and control, Information security risk assessment and risk treatment.</skos:definition>
+	    <rdfs:comment xml:lang="en">Operation Controls</rdfs:comment>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/PerformanceEvaluationControls -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/PerformanceEvaluationControls">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ISOTheme"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <skos:prefLabel xml:lang="en">Performance Evaluation Controls</skos:prefLabel>
+	    <skos:definition xml:lang="en">Represents the controls related to the Monitoring, measurement, analysis and evaluation and Internal audit.</skos:definition>
+	    <rdfs:comment xml:lang="en">Performance Evaluation Controls</rdfs:comment>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+
+	<Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+	
+	
+	
+<!-- ********************************** Controls (Start) ****************************************** -->
+
+    <!-- http://JP_ontology.org/iso27001/Control7.5 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.5">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+		<skos:prefLabel xml:lang="en">Documented information</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Control7.5</skos:altLabel>
+        <skos:definition xml:lang="en">The organisation's information security management system must encompass: a) documented information mandated by this document; and b) documented information identified by the organisation as essential for the efficiency of the information security management system. (NOTE: The amount of documented information required for an information security management system may vary depending on factors such as: 1) the organisation's size and the nature of its activities, processes, products, and services; 2) the complexity of processes and their interrelations; and 3) the competency of personnel.)</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ISMSDocumentationRequirements"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.5.37 -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.37">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2h"/>
+		<skos:prefLabel xml:lang="en">Documented operating procedures</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.5.37</skos:altLabel>
+		<skos:definition xml:lang="en">Documentation outlining operating procedures for information processing facilities must be created and accessible to personnel who require them.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/DocumentedOperatingProcedures"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.5.5 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.5">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+		<skos:prefLabel xml:lang="en">Contact with authorities</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.5.5</skos:altLabel>
+        <skos:definition xml:lang="en">The organisation should establish and uphold communication channels with relevant authorities.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ContactWithAuthorities"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.5.6 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.6">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>        
+		<skos:prefLabel xml:lang="en">Contact with special interest groups</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.5.6</skos:altLabel>
+		<skos:definition xml:lang="en">The organisation should establish and sustain communication with special interest groups or other specialized security forums and professional associations.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ContactWithSpecialInterestGroups"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.5.7 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.7">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+		<skos:prefLabel xml:lang="en">Threat intelligence</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.5.7</skos:altLabel>
+        <skos:definition xml:lang="en">Data concerning information security threats should be gathered and analyzed to generate threat intelligence.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ThreatIntelligence"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.7.11 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.11">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+		<skos:prefLabel xml:lang="en">Supporting utilities</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.7.11</skos:altLabel>
+        <skos:definition xml:lang="en">Information processing facilities must be safeguarded against power failures and other disruptions stemming from failures in supporting utilities.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SupportingUtilities"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.8.14  -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.14">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+		<skos:prefLabel xml:lang="en">Redundancy of information processing facilities</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.8.14</skos:altLabel>
+        <skos:definition xml:lang="en">Information processing facilities should be equipped with redundancy adequate to fulfill availability requirements.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/RedundancyOfInformationProcessingFacilities"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+    <!-- http://JP_ontology.org/iso27001/ControlA.8.17 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.17">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+       <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+		<skos:prefLabel xml:lang="en">Clock synchronization</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.8.17</skos:altLabel>
+        <skos:definition xml:lang="en">The clocks of information processing systems utilized by the organisation must be synchronized with approved time sources.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ClockSynchronization"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/Control7.2 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.2">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+		<skos:prefLabel xml:lang="en">Competence</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Control7.2</skos:altLabel>
+        <skos:definition xml:lang="en">The organisation must: a) ascertain the requisite competency of individuals carrying out tasks under its authority that influence its information security performance; b) confirm the competency of these individuals based on suitable education, training, or experience; c) when necessary, undertake measures to obtain the required competency and assess the efficacy of these measures; and d) maintain suitable documented evidence of competency.	</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/CompetenceManagementForInformationSecurityPersonnel"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.7.7 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.7">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+		<skos:prefLabel xml:lang="en">Clear desk and clear screen</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.7.7</skos:altLabel>
+        <skos:definition xml:lang="en">Clear desk rules for papers and removable storage media, as well as clear screen rules for information processing facilities, should be established and enforced accordingly. </skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ClearDeskAndClearScreen"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.3 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.3">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+		<skos:prefLabel xml:lang="en">Segregation of duties</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.5.3</skos:altLabel>
+        <skos:definition xml:lang="en">Conflicting duties and areas of responsibility must be segregated to avoid conflicts of interest.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SegregationOfDuties"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.6.1 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.1">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+		<skos:prefLabel xml:lang="en">Screening</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.6.1</skos:altLabel>
+        <skos:definition xml:lang="en">Background verification checks on all candidates seeking to become personnel should be conducted before joining the organisation and periodically thereafter, in line with applicable laws, regulations, and ethical considerations. These checks should be proportionate to the business requirements, the classification of the information to be accessed, and the perceived risks.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/Screening"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.6.2 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.2">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+		<skos:prefLabel xml:lang="en">Terms and conditions of employment</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.6.2</skos:altLabel>
+        <skos:definition xml:lang="en">Employment contractual agreements should clearly outline the responsibilities of both the personnel and the organisation regarding information security.</skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/TermsAndConditionsOfEmployment"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.6.5 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.5">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+		<skos:prefLabel xml:lang="en">Responsibilities after termination or change of employment</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.6.5</skos:altLabel>
+        <skos:definition xml:lang="en">Information security responsibilities and duties that remain applicable after termination or change of employment must be clearly defined, enforced, and communicated to relevant personnel and other interested parties. </skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ResponsibilitiesAfterTerminationOrChange"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.11 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.11">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+		<skos:prefLabel xml:lang="en">Return of assets</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.5.11</skos:altLabel>
+        <skos:definition xml:lang="en">Personnel and other relevant parties, as applicable, should return all organisation assets in their possession upon the change or termination of their employment, contract, or agreement. </skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ReturnOfAssets"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.7.9 -->
+
+    <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.9">
+ 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+		<skos:prefLabel xml:lang="en">Security of assets off-premises</skos:prefLabel>
+		<skos:altLabel xml:lang="en">ControlA.7.9</skos:altLabel>
+        <skos:definition xml:lang="en">Off-site assets must be safeguarded. </skos:definition>
+		<skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SecurityOfAssetsOffPremises"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+		<dct:contributor>Jenni Parry</dct:contributor>
+		<rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+    </rdf:Description>
+	
+
+
+<!-- http://JP_ontology.org/iso27001/Control7.4 -->
+
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.4">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+	    <skos:prefLabel xml:lang="en">Communication</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">Control7.4</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation must assess the necessity for internal and external communications pertinent to the information security management system, which includes: a) determining the content of communications; b) establishing the timing of communications; c) identifying the recipients of communications; d) specifying the methods of communication.	</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/Communication"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+		
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.2 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.2">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Information security roles and responsibilities</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.2</skos:altLabel>
+	    <skos:definition xml:lang="en">Roles and responsibilities related to information security must be clearly defined and assigned based on the organisation's requirements.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SecurityRolesResponsibilityAllocation"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+		
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.8.8 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.8">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+	    <skos:prefLabel xml:lang="en">Management of technical vulnerabilities</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.8.8</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation must acquire information regarding technical vulnerabilities present in the information systems being utilized, assess the organisation's susceptibility to these vulnerabilities, and implement suitable measures to address them.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/TechnicalVulnerabilityManagement"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.8.9 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.9">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+	    <skos:prefLabel xml:lang="en">Configuration management</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.8.9</skos:altLabel>
+	    <skos:definition xml:lang="en">Configurations, encompassing security configurations, for hardware, software, services, and networks, must be defined, documented, implemented, monitored, and periodically reviewed.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SecurityConfigurationOversight"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.8.22 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.22">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+	    <skos:prefLabel xml:lang="en">Segregation of networks</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.8.22</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation's networks should segregate groups of information services, users, and information systems.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SegregationOfNetworks"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+<!-- http://JP_ontology.org/iso27001/ControlA.5.25  -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.25">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Assessment and decision on information security events</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.25</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation should assess information security events and determine whether they meet the criteria for classification as information security incidents.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SecurityIncidentCategorisation"/>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-26</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.23  -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.23">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Information security for use of cloud services</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.23</skos:altLabel>
+	    <skos:definition xml:lang="en">Processes for the acquisition, utilization, management, and termination of cloud services must be established in accordance with the organisation's information security requirements.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/CloudServiceManagement"/>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+	<!-- http://JP_ontology.org/iso27001/ControlA.6.3 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.3">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+	    <skos:prefLabel xml:lang="en">Information security awareness, education and training</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.6.3</skos:altLabel>
+	    <skos:definition xml:lang="en">Personnel of the organisation and relevant stakeholders must receive adequate awareness, education, and training on information security, along with regular updates regarding the organisation's information security policy, topic-specific policies, and procedures relevant to their job roles.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/InformationSecurityAwarenessTraining"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.15 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.15">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Access control</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.15</skos:altLabel>
+	    <skos:definition xml:lang="en">Guidelines for regulating physical and logical access to information and other related assets should be developed and enforced in accordance with business and information security needs.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/AccessControlRegulation"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.16 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.16">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Identity management</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.16</skos:altLabel>
+	    <skos:definition xml:lang="en">The complete life cycle of identities must be effectively managed.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/IdentityLifecycleManagement"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.17 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.17">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Authentication information</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.17</skos:altLabel>
+	    <skos:definition xml:lang="en">The allocation and administration of authentication information must be overseen by a management process, which includes instructing personnel on the proper handling of authentication information.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/AuthenticationInformationManagement"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.5.18 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.18">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+	    <skos:prefLabel xml:lang="en">Access rights</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.5.18</skos:altLabel>
+	    <skos:definition xml:lang="en">Access rights to information and other related assets must be provisioned, reviewed, modified, and revoked in compliance with the organisation's topic-specific policy and regulations for access control.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/AccessRightsManagement"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.8.7 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.7">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+	    <skos:prefLabel xml:lang="en">Protection against malware</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.8.7</skos:altLabel>
+	    <skos:definition xml:lang="en">Measures to safeguard against malware must be implemented, and user awareness should be appropriately supported to reinforce this protection.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ProtectionAgainstMalware"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.8.5 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.5">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+	    <skos:prefLabel xml:lang="en">Secure authentication</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.8.5</skos:altLabel>
+	    <skos:definition xml:lang="en">Secure authentication technologies and procedures should be implemented in accordance with information access restrictions and the organisation's specific policy on access control.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SecureAuthenticationImplementation"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/ControlA.8.19 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.19">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+		<rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+	    <skos:prefLabel xml:lang="en">Installation of software on operational systems</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">ControlA.8.19</skos:altLabel>
+	    <skos:definition xml:lang="en">Procedures and measures must be put in place to securely handle software installation on operational systems.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/SecureSoftwareInstallationManagement"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/Control4 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control4">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
+	    <skos:prefLabel xml:lang="en">Context of the organisation</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">Control4</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation must identify both external and internal factors pertinent to its objectives and impacting its capability to attain the desired outcomes of its information security management system.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/ContextOfTheOrganisation"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/Control5.2 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control5.2">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/LeadershipControls"/>
+	    <skos:prefLabel xml:lang="en">Policy</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">Control5.2</skos:altLabel>
+	    <skos:definition xml:lang="en">Senior management must create an information security policy that: a) aligns with the organisation's purpose; b) incorporates information security objectives (refer to 6.2) or establishes the structure for defining information security objectives; c) demonstrates a pledge to fulfill relevant information security requirements; d) shows a dedication to continually enhance the information security management system. This information security policy should: e) exist as documented material; f) be disseminated throughout the organisation; g) be accessible to relevant stakeholders, as necessary.</skos:definition>
+	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/Control5.3 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control5.3">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/LeadershipControls"/>
+	    <skos:prefLabel xml:lang="en">Organisational roles, responsibilities and authorities</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">Control5.3</skos:altLabel>
+	    <skos:definition xml:lang="en">Senior management must guarantee that roles pertaining to information security possess clearly defined responsibilities and authorities, which are assigned and communicated throughout the organisation. Senior management is responsible for designating the responsibility and authority for: a) ensuring compliance of the information security management system with the stipulations outlined in this document; b) providing reports on the performance of the information security management system to senior management.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/InformationSecurityRoleDelegation"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	<!-- http://JP_ontology.org/iso27001/Control6.1.2 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control6.1.2">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PlanningControls"/>
+	    <skos:prefLabel xml:lang="en">Information security risk assessment</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">Control6.1.2</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation must establish and implement an information security risk assessment process that:a) develops and upholds information security risk criteria encompassing: 1) criteria for accepting risks; and 2) criteria for conducting information security risk assessments; b) ensures that recurring information security risk assessments yield consistent, valid, and comparable outcomes; c) identifies information security risks by: 1) applying the information security risk assessment process to recognize risks related to the potential loss of confidentiality, integrity, and availability of information within the scope of the information security management system; 2) determining the owners of identified risks; d) analyzes information security risks by: 1) evaluating the potential consequences that would arise if the risks identified in 6.1.2 c) 1) were to occur; 2) assessing the likelihood of occurrence of the risks identified in 6.1.2 c) 1); 3) determining the levels of risk; e) evaluates information security risks by: 1) comparing the outcomes of risk analysis with the risk criteria established in 6.1.2 a); 2) prioritizing the analyzed risks for risk treatment. The organisation must maintain documented records of the information security risk assessment process.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/InformationSecurityRiskAssessmentProcess"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+	
+	
+	<!-- http://JP_ontology.org/iso27001/Control6.1.3 -->
+	
+	<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control6.1.3">
+	    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+	    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PlanningControls"/>
+	    <skos:prefLabel xml:lang="en">Information security risk treatment</skos:prefLabel>
+	    <skos:altLabel xml:lang="en">Control6.1.3</skos:altLabel>
+	    <skos:definition xml:lang="en">The organisation must establish and implement an information security risk treatment process to: a) choose suitable information security risk treatment options, considering the outcomes of the risk assessment; b) identify all necessary controls required to enact the chosen information security risk treatment option(s); c) create a Statement of Applicability containing: — the requisite controls (refer to ISO27001)); — rationale for their inclusion; — whether the requisite controls are implemented or not; and — justification for excluding any controls from ISO27001 Annex A. e) develop an information security risk treatment plan; and f) obtain approval of the information security risk treatment plan from risk owners and acknowledgment of the residual information security risks. The organisation must maintain documented records of the information security risk treatment process.</skos:definition>
+	    <skos:exactMatch rdf:resource="http://JP_ontology.org/iso27001/InformationSecurityRiskTreatmentProcess"/>
+		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
+	    <dct:contributor>Jenni Parry</dct:contributor>
+	    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+	</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.5.28 -->
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.28">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PlanningControls"/>
+    <skos:prefLabel xml:lang="en">Collection of evidence</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.5.28</skos:altLabel>
+    <skos:definition xml:lang="en">Senior management must create an information security policy that:
+    a) aligns with the organisation's purpose;
+    b) incorporates information security objectives or establishes the framework for defining information security objectives;
+    c) demonstrates a pledge to fulfill applicable requirements related to information security;
+    d) expresses a dedication to continually improve the information security management system.
+    The information security policy should:
+    e) exist as documented material;
+    f) be disseminated throughout the organisation;
+    g) be accessible to relevant stakeholders, as needed.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+
+<!-- http://JP_ontology.org/iso27001/Control9.2 -->
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:prefLabel xml:lang="en">Internal audit</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control9.2</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation should conduct internal audits at scheduled intervals to ascertain whether the information security management system:
+    a) aligns with:
+    1) the organisation’s internal requirements for its information security management system;
+    2) the requirements outlined in this document;
+    b) is effectively implemented and sustained.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control4.3 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control4.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
+    <skos:prefLabel xml:lang="en">Determining the scope of the information security management system</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control4.3</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation is responsible for defining the boundaries and applicability of the information security management system to establish its scope. When determining this scope, the organisation should consider: a) external and internal factors; b) interfaces and dependencies between activities carried out by the organisation and those performed by other entities. The scope must be documented as documented information.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control4.4 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control4.4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
+    <skos:prefLabel xml:lang="en">Information security management system</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control4.4</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation must establish, implement, maintain, and continuously enhance an information security management system (ISMS), including the necessary processes and their interactions, in compliance with the ISO27001 framework.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control5.1 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control5.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/LeadershipControls"/>
+    <skos:prefLabel xml:lang="en">Leadership and commitment</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control5.1</skos:altLabel>
+    <skos:definition xml:lang="en">Senior management should exhibit leadership and commitment regarding the information security management system by: a) establishing the information security policy and objectives in alignment with the organisation's strategic direction; b) integrating ISMS requirements into organisational processes; c) ensuring the availability of resources for the ISMS; d) communicating the importance of effective information security management and compliance with ISMS requirements; e) ensuring the ISMS achieves its intended outcomes; f) guiding and supporting individuals to contribute to ISMS effectiveness; g) promoting continuous improvement; and h) supporting other relevant management roles in demonstrating leadership within their areas of responsibility.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control6.1 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control6.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PlanningControls"/>
+    <skos:prefLabel xml:lang="en">Planning</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control6.1</skos:altLabel>
+    <skos:definition xml:lang="en">When planning for the information security management system, the organisation should take into account any issues and their requirements. It should determine the risks and opportunities that need to be addressed to: a) Ensure the ISMS can achieve its intended outcomes; b) Prevent or mitigate undesired effects; c) Facilitate continual improvement. The organisation must plan the actions to address these risks and opportunities; and how to integrate and implement these actions into its ISMS processes; and evaluate the effectiveness of these actions.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control7.1 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+    <skos:prefLabel xml:lang="en">Resources</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control7.1</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation must identify and allocate the necessary resources for establishing, implementing, maintaining, and continually improving the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control10.1 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control10.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ImprovementControls"/>
+    <skos:prefLabel xml:lang="en">Continual improvement</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control10.1</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation continuously enhances the suitability, adequacy, and effectiveness of the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control10.2 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control10.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ImprovementControls"/>
+    <skos:prefLabel xml:lang="en">Nonconformity and corrective action</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control10.2</skos:altLabel>
+    <skos:definition xml:lang="en">When a nonconformity arises, the organisation reacts accordingly, which may involve: a) Taking immediate action to control and correct it, and addressing any associated consequences; b) Evaluating the need for action to prevent recurrence by reviewing the nonconformity, determining its causes, and assessing the potential for similar occurrences; c) Implementing necessary actions; d) Reviewing the effectiveness of corrective actions taken; and e) Making adjustments to the information security management system as needed. Corrective actions are tailored to the impact of the encountered nonconformities. Documented information serves as evidence of the nature of the nonconformities, subsequent actions taken, and the results of any corrective action.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control7.5.3 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.5.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+    <skos:prefLabel xml:lang="en">Control of documented information</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control7.5.3</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation must manage documented information required by the information security management system and this document to ensure it is available and suitable for use when and where needed, and adequately protected against loss of confidentiality, improper use, or loss of integrity. For controlling documented information, the organisation should address the following activities, as applicable: distribution, access, retrieval, and use; storage and preservation, including maintaining legibility; control of changes, such as version control; and retention and disposal. Documented information of external origin, considered necessary by the organisation for planning and operating the information security management system, should be appropriately identified and controlled.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control9.2.2 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:prefLabel xml:lang="en">Internal audit programme</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control9.2.2</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation plans, establishes, implements, and maintains an audit program, including the frequency, methods, responsibilities, planning requirements, and reporting. When establishing the internal audit program, the organisation considers the importance of the processes concerned and the results of previous audits. The organisation defines the audit criteria and scope for each audit; selects auditors and conducts audits to ensure objectivity and the impartiality of the audit process; ensures that the results of the audits are reported to relevant management. Documented information is available as evidence of the implementation of the audit program and the audit results.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/Control9.3.3 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.3.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:prefLabel xml:lang="en">Management review results</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Control9.3.3</skos:altLabel>
+    <skos:definition xml:lang="en">The outcomes of the management review incorporate determinations concerning opportunities for continual improvement and any requirements for adjustments to the information security management system. Documented information serves as evidence of the outcomes of management reviews.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.5.4 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:prefLabel xml:lang="en">Management responsibilities</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.5.4</skos:altLabel>
+    <skos:definition xml:lang="en">Management mandates that all personnel adhere to information security practices as outlined in the established information security policy, topic-specific policies, and organisational procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.5.13 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.13">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:prefLabel xml:lang="en">Labelling of information</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.5.13</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation develops and implements a suitable set of procedures for information labeling, aligning with the adopted information classification scheme.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.32 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.32">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Change management</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.32</skos:altLabel>
+    <skos:definition xml:lang="en">Any alterations to information processing facilities and information systems must adhere to change management procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.34 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.34">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Protection of information systems during audit testing</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.34</skos:altLabel>
+    <skos:definition xml:lang="en">Audit tests and other assurance activities, which include the evaluation of operational systems, should be planned and mutually agreed upon by the tester and relevant management personnel.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.25 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.25">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Secure development life cycle</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.25</skos:altLabel>
+    <skos:definition xml:lang="en">Secure development guidelines for software and systems are established and applied.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.31 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.31">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Separation of development, test, and production environments</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.31</skos:altLabel>
+    <skos:definition xml:lang="en">Development, testing, and production environments must be kept separate and secured.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.26 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.26">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Application security requirements</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.26</skos:altLabel>
+    <skos:definition xml:lang="en">During application development or acquisition, identification, specification, and approval of information security requirements are essential.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.27 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.27">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Secure system architecture and engineering principles</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.27</skos:altLabel>
+    <skos:definition xml:lang="en">Establishing, documenting, maintaining, and applying principles for engineering secure systems is integral to all information system development activities.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.8.30 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.30">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:prefLabel xml:lang="en">Outsourced development</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.8.30</skos:altLabel>
+    <skos:definition xml:lang="en">The organisation supervises, tracks, and assesses activities linked to outsourced system development.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- http://JP_ontology.org/iso27001/ControlA.7.13 -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.13">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+    <skos:prefLabel xml:lang="en">Equipment maintenance</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ControlA.7.13</skos:altLabel>
+    <skos:definition xml:lang="en">Correct maintenance of equipment is essential to uphold the availability, integrity, and confidentiality of information.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+</rdf:Description>
+
+<!-- *************************************** Controls From Script ********************************************************* -->
+
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.29">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.29</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security during disruption</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should develop plans to uphold information security at an adequate level during disruptions.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.9">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.9</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Inventory of information and other associated assets</skos:prefLabel>
+    <skos:definition xml:lang="en">A comprehensive inventory of information and other associated assets, along with their respective owners, must be created and kept up-to-date.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+<rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.29">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.29</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security during disruption</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should develop plans to uphold information security at an adequate level during disruptions.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.9">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.9</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Inventory of information and other associated assets</skos:prefLabel>
+    <skos:definition xml:lang="en">A comprehensive inventory of information and other associated assets, along with their respective owners, must be created and kept up-to-date.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.4</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Access to source code</skos:prefLabel>
+    <skos:definition xml:lang="en">Management of read and write access to source code, development tools, and software libraries must be handled appropriately.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.27">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.27</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Secure system architecture and engineering principles</skos:prefLabel>
+    <skos:definition xml:lang="en">Establishing, documenting, maintaining, and applying principles for engineering secure systems is integral to all information system development activities.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control8.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OperationControls"/>
+    <skos:altLabel xml:lang="en">Control8.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security risk treatment</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must execute the information security risk treatment plan. Documented records of the outcomes of the information security risk treatment must be retained by the organisation.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.25">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.25</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Secure development life cycle</skos:prefLabel>
+    <skos:definition xml:lang="en">Secure development guidelines for software and systems are established and applied.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.12">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.12</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Data leakage prevention</skos:prefLabel>
+    <skos:definition xml:lang="en">Data leakage prevention measures should be implemented on systems, networks, and any other devices that handle, store, or transmit sensitive information.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.27">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.27</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Learning from information security incidents</skos:prefLabel>
+    <skos:definition xml:lang="en">Insights gained from information security incidents should be utilized to enhance and refine the information security controls.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.30">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.30</skos:altLabel>
+    <skos:prefLabel xml:lang="en">ICT readiness for business continuity</skos:prefLabel>
+    <skos:definition xml:lang="en">ICT readiness should be strategically planned, implemented, maintained, and regularly tested in alignment with business continuity objectives and ICT continuity requirements.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+    <skos:altLabel xml:lang="en">Control7.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Awareness</skos:prefLabel>
+    <skos:definition xml:lang="en">Individuals working under the organisation’s authority should be informed about:
+a) the information security policy;
+b) their role in enhancing the effectiveness of the information security management system, including the advantages of enhanced information security performance; and
+c) the consequences of failing to comply with the requirements of the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control6.1.">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PlanningControls"/>
+    <skos:altLabel xml:lang="en">Control6.1.</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Planning</skos:prefLabel>
+    <skos:definition xml:lang="en">When planning for the information security management system, the organisation should take into account any issues and their requirements. It should determine the risks and opportunities that need to be addressed to:
+a) Ensure the ISMS can achieve its intended outcomes;
+b) Prevent or mitigate undesired effects;
+c) Facilitate continual improvement.
+The organisation must plan the actions to address these risks and opportunities; and how to integrate and implement these actions into its ISMS processes; and evaluate the effectiveness of these actions.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.24">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2h"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.24</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Use of cryptography</skos:prefLabel>
+    <skos:definition xml:lang="en">Guidelines for the effective utilization of cryptography, including cryptographic key management, must be established and put into practice.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.6">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.6</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Capacity management</skos:prefLabel>
+    <skos:definition xml:lang="en">Resource utilization should be continuously monitored and adjusted to align with both current and anticipated capacity needs.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.4.">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.4.</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Management responsibilities</skos:prefLabel>
+    <skos:definition xml:lang="en">Management must mandate that all personnel adhere to information security practices consistent with the established information security policy, topic-specific policies, and organisational procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.31">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.31</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Separation of development, test and production environments</skos:prefLabel>
+    <skos:definition xml:lang="en">Development, testing, and production environments must be kept separate and secured.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.26">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.26</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Application security requirements</skos:prefLabel>
+    <skos:definition xml:lang="en">During application development or acquisition, identification, specification, and approval of information security requirements are essential.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.16">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.16</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Monitoring activities</skos:prefLabel>
+    <skos:definition xml:lang="en">Networks, systems, and applications should undergo monitoring for abnormal behavior, and necessary actions should be taken to assess potential information security incidents.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.10">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.7.10</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Storage media</skos:prefLabel>
+    <skos:definition xml:lang="en">Storage media must be managed throughout their life cycle, including acquisition, usage, transportation, and disposal, in alignment with the organisation’s classification scheme and handling requirements.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.6">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+    <skos:altLabel xml:lang="en">ControlA.6.6</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Confidentiality or non-disclosure agreements</skos:prefLabel>
+    <skos:definition xml:lang="en">Confidentiality or non-disclosure agreements that reflect the organisation's requirements for information protection must be identified, documented, regularly reviewed, and signed by personnel and other relevant parties.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.36">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.36</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Compliance with policies, rules and standards for information security</skos:prefLabel>
+    <skos:definition xml:lang="en">Regular reviews should be conducted to ensure compliance with the organisation’s information security policy, topic-specific policies, rules, and standards.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.24">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.24</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security incident management planning and preparation</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should develop plans and preparations for managing information security incidents by defining, establishing, and communicating processes, roles, and responsibilities for information security incident management.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">User endpoint devices</skos:prefLabel>
+    <skos:definition xml:lang="en">Data stored on, processed by, or accessible through user endpoint devices should be safeguarded.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.35">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.35</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Independent review of information security</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation's approach to managing information security, including people, processes, and technologies, should be independently reviewed at scheduled intervals or when significant changes occur.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control8.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OperationControls"/>
+    <skos:altLabel xml:lang="en">Control8.2</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security risk assessment</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation shall perform information security risk assessments at planned intervals or when significant changes are proposed or occur, taking account of established information security risk criteria. The organisation shall retain documented information of the results of the information security risk assessments.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:altLabel xml:lang="en">Control9.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Monitoring, measurement, analysis and evaluation</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should determine:
+a) the aspects to be monitored and measured, encompassing information security processes and controls;
+b) the methods for monitoring, measurement, analysis, and evaluation to ensure reliable outcomes. The chosen methods should yield comparable and reproducible results to be deemed valid;
+c) the timing for conducting monitoring and measurement activities;
+d) the responsible parties for monitoring and measurement;
+e) the timing for analyzing and evaluating the results of monitoring and measurement;
+f) the individuals or entities tasked with analyzing and evaluating these results. Documented evidence should be available to substantiate the outcomes.
+Furthermore, the organisation should assess the performance of information security and the effectiveness of the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.14">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.14</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information transfer</skos:prefLabel>
+    <skos:definition xml:lang="en">Rules, procedures, or agreements governing information transfer must be established for all types of transfer facilities within the organisation and between the organisation and other parties.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.21">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.21</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Security of network services</skos:prefLabel>
+    <skos:definition xml:lang="en">The security mechanisms, service levels, and service requirements of network services must be identified, implemented, and continuously monitored.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+    <skos:altLabel xml:lang="en">Control7.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Resources</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must identify and allocate the necessary resources for establishing, implementing, maintaining, and continually improving the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.22">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.22</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Monitoring, review and change management of supplier services</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must consistently monitor, review, assess, and manage changes in supplier information security practices and service delivery.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.15">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.15</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Logging</skos:prefLabel>
+    <skos:definition xml:lang="en">Logs documenting activities, exceptions, faults, and other pertinent events must be generated, stored, safeguarded, and analyzed.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.20">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.20</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Addressing information security within supplier agreements</skos:prefLabel>
+    <skos:definition xml:lang="en">Appropriate information security requirements should be defined and mutually agreed upon with each supplier, depending on the nature of the supplier relationship.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:altLabel xml:lang="en">Control9.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Management review</skos:prefLabel>
+    <skos:definition xml:lang="en">Senior management should periodically review the organisation's information security management system at scheduled intervals to verify its ongoing suitability, sufficiency, and effectiveness.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.3.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:altLabel xml:lang="en">Control9.3.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Management review results</skos:prefLabel>
+    <skos:definition xml:lang="en">The outcomes of the management review incorporate determinations concerning opportunities for continual improvement and any requirements for adjustments to the information security management system. Documented information serves as evidence of the outcomes of management reviews.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control4.4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
+    <skos:altLabel xml:lang="en">Control4.4</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security management system</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must establish, implement, maintain, and continuously enhance an information security management system (ISMS), including the necessary processes and their interactions, in compliance with the ISO27001 framework.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.14">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.7.14</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Secure disposal or re-use of equipment</skos:prefLabel>
+    <skos:definition xml:lang="en">Equipment containing storage media should be verified to ensure that any sensitive data and licensed software have been removed or securely overwritten before disposal or reuse.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.31">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.31</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Legal, statutory, regulatory and contractual requirements</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must identify, document, and keep up-to-date legal, statutory, regulatory, and contractual requirements pertinent to information security, along with the organisation's approach to fulfill these requirements.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control7.5.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
+    <skos:altLabel xml:lang="en">Control7.5.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Control of documented information</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must manage documented information required by the information security management system and this document to ensure it is available and suitable for use when and where needed, and adequately protected against loss of confidentiality, improper use, or loss of integrity.
+For controlling documented information, the organisation should address the following activities, as applicable: distribution, access, retrieval, and use; storage and preservation, including maintaining legibility; control of changes, such as version control; and retention and disposal.
+Documented information of external origin, considered necessary by the organisation for planning and operating the information security management system, should be appropriately identified and controlled.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.7.13">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.7.13</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Equipment maintenance</skos:prefLabel>
+    <skos:definition xml:lang="en">Correct maintenance of equipment is essential to uphold the availability, integrity, and confidentiality of information.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control8.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OperationControls"/>
+    <skos:altLabel xml:lang="en">Control8.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Operational planning and control</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should plan, execute, and oversee processes to fulfill requirements and implement actions defined by:
+- setting criteria for the processes;
+- managing process controls in line with the criteria.
+Documented information should be accessible to ensure confidence in the execution of planned processes. The organisation should manage planned changes and assess the impact of unintended changes, taking steps to mitigate any adverse effects as needed. It should also ensure control over externally provided processes, products, or services relevant to the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control10.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ImprovementControls"/>
+    <skos:altLabel xml:lang="en">Control10.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Continual improvement</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation continuously enhances the suitability, adequacy, and effectiveness of the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control10.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ImprovementControls"/>
+    <skos:altLabel xml:lang="en">Control10.2</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Nonconformity and corrective action</skos:prefLabel>
+    <skos:definition xml:lang="en">When a nonconformity arises, the organisation reacts accordingly, which may involve: a) Taking immediate action to control and correct it, and addressing any associated consequences; b) Evaluating the need for action to prevent recurrence by reviewing the nonconformity, determining its causes, and assessing the potential for similar occurrences; c) Implementing necessary actions; d) Reviewing the effectiveness of corrective actions taken; and e) Making adjustments to the information security management system as needed. Corrective actions are tailored to the impact of the encountered nonconformities. Documented information serves as evidence of the nature of the nonconformities, subsequent actions taken, and the results of any corrective action.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.2</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Privileged access rights</skos:prefLabel>
+    <skos:definition xml:lang="en">The assignment and utilization of privileged access rights must be limited and overseen.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.26">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.26</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Response to information security incidents</skos:prefLabel>
+    <skos:definition xml:lang="en">Information security incidents must be addressed in accordance with the documented procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.32">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.32</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Change management</skos:prefLabel>
+    <skos:definition xml:lang="en">Any alterations to information processing facilities and information systems must adhere to change management procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.34">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.34</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Protection of information systems during audit testing</skos:prefLabel>
+    <skos:definition xml:lang="en">Audit tests and other assurance activities, which include the evaluation of operational systems, should be planned and mutually agreed upon by the tester and relevant management personnel.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:altLabel xml:lang="en">Control9.2.2</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Internal audit programme</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation plans, establishes, implements, and maintains an audit program, including the frequency, methods, responsibilities, planning requirements, and reporting. When establishing the internal audit program, the organisation considers the importance of the processes concerned and the results of previous audits. The organisation defines the audit criteria and scope for each audit; selects auditors and conducts audits that ensure objectivity and the impartiality of the audit process; ensures that the results of the audits are reported to relevant management. Documented information is available as evidence of the implementation of the audit program and the audit results.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.7">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+    <skos:altLabel xml:lang="en">ControlA.6.7</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Remote working</skos:prefLabel>
+    <skos:definition xml:lang="en">Security measures should be implemented to safeguard information accessed, processed, or stored outside the organisation's premises when personnel are working remotely.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.20">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.20</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Network security</skos:prefLabel>
+    <skos:definition xml:lang="en">Networks and network devices should be secured, managed, and controlled to safeguard information in systems and applications.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control4.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
+    <skos:altLabel xml:lang="en">Control4.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Determining the scope of the information security management system</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation is responsible for defining the boundaries and applicability of the information security management system to establish its scope. When determining this scope, the organisation should consider:
+a) external and internal factors;
+b) interfaces and dependencies between activities carried out by the organisation and those performed by other entities. The scope must be documented as documented information.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.3">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.3</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information access restriction</skos:prefLabel>
+    <skos:definition xml:lang="en">Access to information and other associated assets needs to be controlled in line with the specified topic-specific policy on access control.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.23">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.23</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Web filtering</skos:prefLabel>
+    <skos:definition xml:lang="en">Management of access to external websites should be implemented to minimize exposure to malicious content.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.19">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.19</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security in supplier relationships</skos:prefLabel>
+    <skos:definition xml:lang="en">Processes and procedures must be established and executed to manage the information security risks linked with the utilization of suppliers' products or services.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.30">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.30</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Outsourced development</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation supervises, tracks, and assesses activities linked to outsourced system development.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+    <skos:altLabel xml:lang="en">ControlA.6.4</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Disciplinary process</skos:prefLabel>
+    <skos:definition xml:lang="en">A disciplinary process should be formalized and communicated to take action against personnel and other relevant parties who have violated the information security policy.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.18">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.18</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Use of privileged utility programs</skos:prefLabel>
+    <skos:definition xml:lang="en">Usage of utility programs with the potential to bypass system and application controls should be limited and closely monitored.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.4</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Management responsibilities</skos:prefLabel>
+    <skos:definition xml:lang="en">Management mandates that all personnel adhere to information security practices as outlined in the established information security policy, topic-specific policies, and organisational procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Policies for information security</skos:prefLabel>
+    <skos:definition xml:lang="en">The information security policy and topic-specific policies must be formulated, endorsed by management, published, communicated to, and acknowledged by relevant personnel and other pertinent stakeholders. They should also be reviewed at scheduled intervals and whenever significant changes occur.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.21">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.21</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Managing information security in the ICT supply chain</skos:prefLabel>
+    <skos:definition xml:lang="en">Processes and procedures must be outlined and put into practice to handle the information security risks linked with the supply chain of ICT products and services.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.8">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.8</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security in project management</skos:prefLabel>
+    <skos:definition xml:lang="en">Project management should incorporate information security measures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control9.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
+    <skos:altLabel xml:lang="en">Control9.2</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Internal audit</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should conduct internal audits at scheduled intervals to ascertain whether the information security management system:
+a) aligns with:
+1) the organisation’s internal requirements for its information security management system;
+2) the requirements outlined in this document;
+b) is effectively implemented and sustained.</skos:definition>
+    <skos:definition xml:lang="en">The organisation will conduct internal audits at planned intervals to determine if the information security management system conforms to its own requirements and those outlined the ISO27001 framework, and whether it is effectively implemented and maintained.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.13">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.13</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Labelling of information</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation develops and implements a suitable set of procedures for information labeling, aligning with the adopted information classification scheme.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control4.2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
+    <skos:altLabel xml:lang="en">Control4.2</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Understanding the needs and expectations of interested parties</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation must:
+a) identify relevant interested parties for the information security management system;
+b) determine the applicable requirements from these interested parties;
+c) establish which of these requirements will be met through the information security management system.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.28">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.28</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Collection of evidence</skos:prefLabel>
+    <skos:definition xml:lang="en">Senior management must create an information security policy that:
+a) aligns with the organisation's purpose;
+b) incorporates information security objectives or establishes the framework for defining information security objectives;
+c) demonstrates a pledge to fulfill applicable requirements related to information security; 
+d) expresses a dedication to continually improve the information security management system.
+The information security policy should:
+e) exist as documented material;
+f) be disseminated throughout the organisation; 
+g) be accessible to relevant stakeholders, as needed.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.5.10">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.5.10</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Acceptable use of information and other associated assets</skos:prefLabel>
+    <skos:definition xml:lang="en">Guidelines for acceptable use and procedures for handling information and other associated assets need to be identified, documented, and put into effect.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/Control5.1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/LeadershipControls"/>
+    <skos:altLabel xml:lang="en">Control5.1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Leadership and commitment</skos:prefLabel>
+    <skos:definition xml:lang="en">Senior management should exhibit leadership and commitment regarding the information security management system by:
+a) establishing the information security policy and objectives in alignment with the organisation's strategic direction;
+b) integrating ISMS requirements into organisational processes;
+c) ensuring the availability of resources for the ISMS;
+d) communicating the importance of effective information security management and compliance with ISMS requirements;
+e) ensuring the ISMS achieves its intended outcomes;
+f) guiding and supporting individuals to contribute to ISMS effectiveness;
+g) promoting continuous improvement; and
+h) supporting other relevant management roles in demonstrating leadership within their areas of responsibility.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.6.8">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
+    <skos:altLabel xml:lang="en">ControlA.6.8</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information security event reporting</skos:prefLabel>
+    <skos:definition xml:lang="en">The organisation should establish a mechanism for personnel to report observed or suspected information security events through suitable channels promptly.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://JP_ontology.org/iso27001/ControlA.8.13">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
+    <skos:altLabel xml:lang="en">ControlA.8.13</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Information backup</skos:prefLabel>
+    <skos:definition xml:lang="en">Information, software, and systems backup copies should be preserved and subjected to regular testing, adhering to the approved topic-specific policy on backup procedures.</skos:definition>
+    <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
+    <dct:contributor>Jenni Parry</dct:contributor>
+    <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/iso27001"/>
+  </rdf:Description>
+  
+<!-- *************************************** Controls (End) ********************************************************* -->
+
+
+</rdf:RDF>

@@ -1,5 +1,6 @@
-# NIS2V-Vocabulary-Repository
-NIS2V Vocabulary extending DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.
+*** NIS2 Vocabulary (NIS2V) ***
+
+Abstract: 	NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework. 
 
 Ontology Title: 	NIS2 Vocabulary  
 
@@ -24,6 +25,3 @@ Authors: 	Jenni Parry
 Imported Ontologies: 	http://JP_ontology.org/assessment / http://JP_ontology.org/iso27001
 
 Extended Ontologies: 	https://w3c.github.io/dpv/dpv/
-
-Details
-DOI 10.5281/zenodo.11620548
