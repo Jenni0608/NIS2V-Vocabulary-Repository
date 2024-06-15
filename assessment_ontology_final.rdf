@@ -11,7 +11,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:assessment="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final#"
          xmlns:nis2v="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final#"
-		 xmlns:iso27001="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final#">
+	 xmlns:iso27001="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final#">
 
   <owl:Ontology rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/">
     <owl:imports rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/"/>
