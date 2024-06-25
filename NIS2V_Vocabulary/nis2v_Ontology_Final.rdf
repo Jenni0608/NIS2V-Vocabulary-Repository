@@ -44,7 +44,7 @@
         <rdfs:seeAlso rdf:resource="http://JP_ontology.org/nis2v/documentation"/>
 		<dct:hasFormat rdf:resource="https://github.com/Jenni0608/NIS2V-Vocabulary-Repository/blob/main/NIS2V_Vocabulary/nis2v_ontology_final%20-%20v5.rdf"/>
         <dct:format>application/rdf+xml</dct:format>
-        <dct:title>nis2v_ontology_final-v5.rdf</dct:title>
+        <dct:title>nis2v_Ontology_Final.rdf</dct:title>
         <dct:extent>215</dct:extent> 
     </rdf:Description>
 
