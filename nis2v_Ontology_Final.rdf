@@ -2392,7 +2392,7 @@ DPV: Purposes associated with manage orders, payment, evaluation, and prospectin
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final/InformationSecurityControls"/>
+    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Information Security Policy Management</skos:prefLabel>
