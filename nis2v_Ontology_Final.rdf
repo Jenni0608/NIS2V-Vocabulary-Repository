@@ -51,34 +51,6 @@
     <dct:keywords>NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology</dct:keywords>
 </rdf:Description>
 	
-<!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // NIS2V Ontology - JSON-LD Metadata
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
--->
-{
-  "@context": "http://schema.org/",
-  "@type": "Dataset",
-  "name": "NIS2 Vocabulary",
-  "description": "NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.",
-  "creator": {
-    "@type": "Person",
-    "name": "Jenni Parry"
-  },
-  "dateCreated": "2024-04-08",
-  "dateModified": "2024-06-24",
-  "identifier": "https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final",
-  "publisher": {
-    "@type": "Organization",
-    "name": "UCD"
-  },
-  "license": "https://doi.org/10.5281/zenodo.11620548",
-  "keywords": ["NIS2", "Cybersecurity", "ISO 27001", "DPV", "Risk Management", "Ontology"],
-  "url": "https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final"
-}
-
 
 <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
