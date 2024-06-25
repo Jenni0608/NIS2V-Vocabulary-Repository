@@ -1,6 +1,29 @@
 <http://JP_ontology.org/nis2v/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://JP_ontology.org/nis2v/> <http://www.w3.org/2002/07/owl#imports> <http://JP_ontology.org/assessment/> .
 <http://JP_ontology.org/nis2v/> <http://www.w3.org/2002/07/owl#imports> <http://JP_ontology.org/iso27001/> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/abstract> "NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework." .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/created> "2024-04-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/creator> "Jenni Parry" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/date> "2024-04-08" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/description> "NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework." .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/description> "This ontology will extend DPV and utilize it to perform a NIS2 gap analysis against ISO 27001:2022 controls framework (89 controls) and ENISA Minimum Security Measures for Operators of Essential Services (30 controls). Data Privacy Vocabulary (DPV) provides a comprehensive, standardized set of terms to describe GDPR, a number of these terms have been included (SKOS mappings) to describe the NIS2 Cybersecurity risk-management measures." .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/extends> <https://w3c.github.io/dpv/dpv/> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/extent> "215" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/format> "application/rdf+xml" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/hasFormat> <https://github.com/Jenni0608/NIS2V-Vocabulary-Repository/blob/main/NIS2V_Vocabulary/nis2v_ontology_final%20-%20v5.rdf> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/identifier> <http://JP_ontology.org/nis2v> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/identifier> <https://doi.org/10.5281/zenodo.11620548> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/identifier> "https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/importedFrom> <http://JP_ontology.org/assessment> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/importedFrom> <http://JP_ontology.org/iso27001> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/language> "en" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/modified> "2024-06-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/publisher> "UCD" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/source> "https://doi.org/10.5281/zenodo.11620548" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/subject> "NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/title> "NIS2 Vocabulary" .
+<http://JP_ontology.org/nis2v/> <http://purl.org/dc/terms/title> "nis2v_Ontology_Final.rdf" .
+<http://JP_ontology.org/nis2v/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://JP_ontology.org/nis2v/documentation> .
 # 
 # 
 # #################################################################
@@ -10,14 +33,59 @@
 # #################################################################
 # 
 # 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/contributor
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/created
 <http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/extends
+<http://purl.org/dc/terms/extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/extent
+<http://purl.org/dc/terms/extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/importedFrom
+<http://purl.org/dc/terms/importedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/source
 <http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/subject
+<http://purl.org/dc/terms/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#altLabel
 <http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -59,34 +127,13 @@
 # 
 # #################################################################
 # #
-# #    Object Properties
-# #
-# #################################################################
-# 
-# 
-# http://JP_ontology.org/nis2v/relatedToControl
-<http://JP_ontology.org/nis2v/relatedToControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://JP_ontology.org/nis2v/relatedToControl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://JP_ontology.org/assessment/AssessmentQuestion> .
-<http://JP_ontology.org/assessment/AssessmentQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://JP_ontology.org/nis2v/relatedToControl> <http://www.w3.org/2000/01/rdf-schema#range> <http://JP_ontology.org/iso27001/Control> .
-<http://JP_ontology.org/iso27001/Control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://JP_ontology.org/nis2v/relatedToControl> <http://www.w3.org/2000/01/rdf-schema#label> "related to control" .
-# 
-# 
-# 
-# #################################################################
-# #
 # #    Classes
 # #
 # #################################################################
 # 
 # 
-# http://JP_ontology.org/assessment/AssessmentQuestion
-# 
 # http://JP_ontology.org/iso27001/ContextControls
 <http://JP_ontology.org/iso27001/ContextControls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://JP_ontology.org/iso27001/Control
 # 
 # http://JP_ontology.org/iso27001/ControlOfDocumentedInformation
 <http://JP_ontology.org/iso27001/ControlOfDocumentedInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -389,9 +436,6 @@
 <http://JP_ontology.org/nis2v/InformationSecurityAwarenessTraining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/nis2v/Article_21.2i> .
 <http://JP_ontology.org/nis2v/InformationSecurityAwarenessTraining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/nis2v/NIS2VTerms> .
 # 
-# http://JP_ontology.org/nis2v/InformationSecurityControls
-<http://JP_ontology.org/nis2v/InformationSecurityControls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # http://JP_ontology.org/nis2v/InformationSecurityIntergradation
 <http://JP_ontology.org/nis2v/InformationSecurityIntergradation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://JP_ontology.org/nis2v/InformationSecurityIntergradation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/iso27001/OrganisationalControls> .
@@ -435,8 +479,8 @@
 # 
 # http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement
 <http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/iso27001/OrganisationalControls> .
 <http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/nis2v/Article_21.2a> .
-<http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/nis2v/InformationSecurityControls> .
 <http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://JP_ontology.org/nis2v/NIS2VTerms> .
 # 
 # http://JP_ontology.org/nis2v/InformationSecurityRiskAssessmentImplementation

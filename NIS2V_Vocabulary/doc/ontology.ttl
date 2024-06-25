@@ -8,11 +8,38 @@
 
 <http://JP_ontology.org/nis2v/> rdf:type owl:Ontology ;
                                  owl:imports <http://JP_ontology.org/assessment/> ,
-                                             <http://JP_ontology.org/iso27001/> .
+                                             <http://JP_ontology.org/iso27001/> ;
+                                 <http://purl.org/dc/terms/abstract> "NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework." ;
+                                 <http://purl.org/dc/terms/created> "2024-04-08"^^xsd:date ;
+                                 <http://purl.org/dc/terms/creator> "Jenni Parry" ;
+                                 <http://purl.org/dc/terms/date> "2024-04-08" ;
+                                 <http://purl.org/dc/terms/description> "NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework." ,
+                                                                        "This ontology will extend DPV and utilize it to perform a NIS2 gap analysis against ISO 27001:2022 controls framework (89 controls) and ENISA Minimum Security Measures for Operators of Essential Services (30 controls). Data Privacy Vocabulary (DPV) provides a comprehensive, standardized set of terms to describe GDPR, a number of these terms have been included (SKOS mappings) to describe the NIS2 Cybersecurity risk-management measures." ;
+                                 <http://purl.org/dc/terms/extends> <https://w3c.github.io/dpv/dpv/> ;
+                                 <http://purl.org/dc/terms/extent> "215" ;
+                                 <http://purl.org/dc/terms/format> "application/rdf+xml" ;
+                                 <http://purl.org/dc/terms/hasFormat> <https://github.com/Jenni0608/NIS2V-Vocabulary-Repository/blob/main/NIS2V_Vocabulary/nis2v_ontology_final%20-%20v5.rdf> ;
+                                 <http://purl.org/dc/terms/identifier> <http://JP_ontology.org/nis2v> ,
+                                                                       <https://doi.org/10.5281/zenodo.11620548> ,
+                                                                       "https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final" ;
+                                 <http://purl.org/dc/terms/importedFrom> <http://JP_ontology.org/assessment> ,
+                                                                         <http://JP_ontology.org/iso27001> ;
+                                 <http://purl.org/dc/terms/language> "en" ;
+                                 <http://purl.org/dc/terms/modified> "2024-06-24"^^xsd:date ;
+                                 <http://purl.org/dc/terms/publisher> "UCD" ;
+                                 <http://purl.org/dc/terms/source> "https://doi.org/10.5281/zenodo.11620548" ;
+                                 <http://purl.org/dc/terms/subject> "NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology" ;
+                                 <http://purl.org/dc/terms/title> "NIS2 Vocabulary" ,
+                                                                  "nis2v_Ontology_Final.rdf" ;
+                                 rdfs:seeAlso :documentation .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/terms/contributor
 <http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
@@ -22,8 +49,64 @@
 <http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/extends
+<http://purl.org/dc/terms/extends> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/extent
+<http://purl.org/dc/terms/extent> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/importedFrom
+<http://purl.org/dc/terms/importedFrom> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/source
 <http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/subject
+<http://purl.org/dc/terms/subject> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -67,30 +150,11 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 #################################################################
-#    Object Properties
-#################################################################
-
-###  http://JP_ontology.org/nis2v/relatedToControl
-:relatedToControl rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://JP_ontology.org/assessment/AssessmentQuestion> ;
-                  rdfs:range <http://JP_ontology.org/iso27001/Control> ;
-                  rdfs:label "related to control" .
-
-
-#################################################################
 #    Classes
 #################################################################
 
-###  http://JP_ontology.org/assessment/AssessmentQuestion
-<http://JP_ontology.org/assessment/AssessmentQuestion> rdf:type owl:Class .
-
-
 ###  http://JP_ontology.org/iso27001/ContextControls
 <http://JP_ontology.org/iso27001/ContextControls> rdf:type owl:Class .
-
-
-###  http://JP_ontology.org/iso27001/Control
-<http://JP_ontology.org/iso27001/Control> rdf:type owl:Class .
 
 
 ###  http://JP_ontology.org/iso27001/ControlOfDocumentedInformation
@@ -453,10 +517,6 @@ xsd:date rdf:type rdfs:Datatype .
                                                       :NIS2VTerms .
 
 
-###  http://JP_ontology.org/nis2v/InformationSecurityControls
-:InformationSecurityControls rdf:type owl:Class .
-
-
 ###  http://JP_ontology.org/nis2v/InformationSecurityIntergradation
 :InformationSecurityIntergradation rdf:type owl:Class ;
                                    rdfs:subClassOf <http://JP_ontology.org/iso27001/OrganisationalControls> ,
@@ -507,8 +567,8 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://JP_ontology.org/nis2v/InformationSecurityPolicyManagement
 :InformationSecurityPolicyManagement rdf:type owl:Class ;
-                                     rdfs:subClassOf :Article_21.2a ,
-                                                     :InformationSecurityControls ,
+                                     rdfs:subClassOf <http://JP_ontology.org/iso27001/OrganisationalControls> ,
+                                                     :Article_21.2a ,
                                                      :NIS2VTerms .
 
 
