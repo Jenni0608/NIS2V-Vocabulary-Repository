@@ -146,7 +146,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/ISOTheme"/>
 	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	    <skos:prefLabel xml:lang="en">Context Controls</skos:prefLabel>
-	    <skos:definition xml:lang="en">Represents the controls related to the context of the organization.</skos:definition>
+	    <skos:definition xml:lang="en">Represents the controls related to the context of the organisation.</skos:definition>
 	    <rdfs:comment xml:lang="en">Context Controls</rdfs:comment>
 	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -160,7 +160,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/ISOTheme"/>
 	    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	    <skos:prefLabel xml:lang="en">Leadership Controls</skos:prefLabel>
-	    <skos:definition xml:lang="en">Represents the controls related to leadership and commitment, policy and organizational roles, responsibilities and authorities.</skos:definition>
+	    <skos:definition xml:lang="en">Represents the controls related to leadership and commitment, policy and organisational roles, responsibilities and authorities.</skos:definition>
 	    <rdfs:comment xml:lang="en">Leadership Controls</rdfs:comment>
 	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-25</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -276,7 +276,7 @@
         <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/OrganisationalControls"/>        
 		<skos:prefLabel xml:lang="en">Contact with special interest groups</skos:prefLabel>
 		<skos:altLabel xml:lang="en">ControlA.5.6</skos:altLabel>
-		<skos:definition xml:lang="en">The organisation should establish and sustain communication with special interest groups or other specialized security forums and professional associations.</skos:definition>
+		<skos:definition xml:lang="en">The organisation should establish and sustain communication with special interest groups or other specialised security forums and professional associations.</skos:definition>
 		<skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/ContactWithSpecialInterestGroups"/>
 		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
 		<dct:contributor>Jenni Parry</dct:contributor>
@@ -292,7 +292,7 @@
         <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/OrganisationalControls"/>
 		<skos:prefLabel xml:lang="en">Threat intelligence</skos:prefLabel>
 		<skos:altLabel xml:lang="en">ControlA.5.7</skos:altLabel>
-        <skos:definition xml:lang="en">Data concerning information security threats should be gathered and analyzed to generate threat intelligence.</skos:definition>
+        <skos:definition xml:lang="en">Data concerning information security threats should be gathered and analysed to generate threat intelligence.</skos:definition>
 		<skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/ThreatIntelligence"/>
 		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
 		<dct:contributor>Jenni Parry</dct:contributor>
@@ -338,10 +338,10 @@
 		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final/Article_21.2b"/>
 		<rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
-		<skos:prefLabel xml:lang="en">Clock synchronization</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Clock synchronisation</skos:prefLabel>
 		<skos:altLabel xml:lang="en">ControlA.8.17</skos:altLabel>
-        <skos:definition xml:lang="en">The clocks of information processing systems utilized by the organisation must be synchronized with approved time sources.</skos:definition>
-		<skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/ClockSynchronization"/>
+        <skos:definition xml:lang="en">The clocks of information processing systems utilised by the organisation must be synchronised with approved time sources.</skos:definition>
+		<skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/Clocksynchronisation"/>
 		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
 		<dct:contributor>Jenni Parry</dct:contributor>
 		<rdfs:isDefinedBy rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final"/>
@@ -524,7 +524,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
 	    <skos:prefLabel xml:lang="en">Management of technical vulnerabilities</skos:prefLabel>
 	    <skos:altLabel xml:lang="en">ControlA.8.8</skos:altLabel>
-	    <skos:definition xml:lang="en">The organisation must acquire information regarding technical vulnerabilities present in the information systems being utilized, assess the organisation's susceptibility to these vulnerabilities, and implement suitable measures to address them.</skos:definition>
+	    <skos:definition xml:lang="en">The organisation must acquire information regarding technical vulnerabilities present in the information systems being utilised, assess the organisation's susceptibility to these vulnerabilities, and implement suitable measures to address them.</skos:definition>
 	    <skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnicalVulnerabilityManagement"/>
 		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -590,7 +590,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/OrganisationalControls"/>
 	    <skos:prefLabel xml:lang="en">Information security for use of cloud services</skos:prefLabel>
 	    <skos:altLabel xml:lang="en">ControlA.5.23</skos:altLabel>
-	    <skos:definition xml:lang="en">Processes for the acquisition, utilization, management, and termination of cloud services must be established in accordance with the organisation's information security requirements.</skos:definition>
+	    <skos:definition xml:lang="en">Processes for the acquisition, utilisation, management, and termination of cloud services must be established in accordance with the organisation's information security requirements.</skos:definition>
 	    <skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/CloudServiceManagement"/>
 	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-15</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -797,7 +797,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/PlanningControls"/>
 	    <skos:prefLabel xml:lang="en">Information security risk assessment</skos:prefLabel>
 	    <skos:altLabel xml:lang="en">Control6.1.2</skos:altLabel>
-	    <skos:definition xml:lang="en">The organisation must establish and implement an information security risk assessment process that:a) develops and upholds information security risk criteria encompassing: 1) criteria for accepting risks; and 2) criteria for conducting information security risk assessments; b) ensures that recurring information security risk assessments yield consistent, valid, and comparable outcomes; c) identifies information security risks by: 1) applying the information security risk assessment process to recognize risks related to the potential loss of confidentiality, integrity, and availability of information within the scope of the information security management system; 2) determining the owners of identified risks; d) analyzes information security risks by: 1) evaluating the potential consequences that would arise if the risks identified in 6.1.2 c) 1) were to occur; 2) assessing the likelihood of occurrence of the risks identified in 6.1.2 c) 1); 3) determining the levels of risk; e) evaluates information security risks by: 1) comparing the outcomes of risk analysis with the risk criteria established in 6.1.2 a); 2) prioritizing the analyzed risks for risk treatment. The organisation must maintain documented records of the information security risk assessment process.</skos:definition>
+	    <skos:definition xml:lang="en">The organisation must establish and implement an information security risk assessment process that:a) develops and upholds information security risk criteria encompassing: 1) criteria for accepting risks; and 2) criteria for conducting information security risk assessments; b) ensures that recurring information security risk assessments yield consistent, valid, and comparable outcomes; c) identifies information security risks by: 1) applying the information security risk assessment process to recognise risks related to the potential loss of confidentiality, integrity, and availability of information within the scope of the information security management system; 2) determining the owners of identified risks; d) analyses information security risks by: 1) evaluating the potential consequences that would arise if the risks identified in 6.1.2 c) 1) were to occur; 2) assessing the likelihood of occurrence of the risks identified in 6.1.2 c) 1); 3) determining the levels of risk; e) evaluates information security risks by: 1) comparing the outcomes of risk analysis with the risk criteria established in 6.1.2 a); 2) prioritising the analysed risks for risk treatment. The organisation must maintain documented records of the information security risk assessment process.</skos:definition>
 	    <skos:exactMatch rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/InformationSecurityRiskAssessmentProcess"/>
 		<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -1322,7 +1322,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/OrganisationalControls"/>
     <skos:altLabel xml:lang="en">ControlA.5.27</skos:altLabel>
     <skos:prefLabel xml:lang="en">Learning from information security incidents</skos:prefLabel>
-    <skos:definition xml:lang="en">Insights gained from information security incidents should be utilized to enhance and refine the information security controls.</skos:definition>
+    <skos:definition xml:lang="en">Insights gained from information security incidents should be utilised to enhance and refine the information security controls.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1385,7 +1385,7 @@ The organisation must plan the actions to address these risks and opportunities;
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
     <skos:altLabel xml:lang="en">ControlA.8.24</skos:altLabel>
     <skos:prefLabel xml:lang="en">Use of cryptography</skos:prefLabel>
-    <skos:definition xml:lang="en">Guidelines for the effective utilization of cryptography, including cryptographic key management, must be established and put into practice.</skos:definition>
+    <skos:definition xml:lang="en">Guidelines for the effective utilisation of cryptography, including cryptographic key management, must be established and put into practice.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1399,7 +1399,7 @@ The organisation must plan the actions to address these risks and opportunities;
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
     <skos:altLabel xml:lang="en">ControlA.8.6</skos:altLabel>
     <skos:prefLabel xml:lang="en">Capacity management</skos:prefLabel>
-    <skos:definition xml:lang="en">Resource utilization should be continuously monitored and adjusted to align with both current and anticipated capacity needs.</skos:definition>
+    <skos:definition xml:lang="en">Resource utilisation should be continuously monitored and adjusted to align with both current and anticipated capacity needs.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1572,8 +1572,8 @@ a) the aspects to be monitored and measured, encompassing information security p
 b) the methods for monitoring, measurement, analysis, and evaluation to ensure reliable outcomes. The chosen methods should yield comparable and reproducible results to be deemed valid;
 c) the timing for conducting monitoring and measurement activities;
 d) the responsible parties for monitoring and measurement;
-e) the timing for analyzing and evaluating the results of monitoring and measurement;
-f) the individuals or entities tasked with analyzing and evaluating these results. Documented evidence should be available to substantiate the outcomes.
+e) the timing for analysing and evaluating the results of monitoring and measurement;
+f) the individuals or entities tasked with analysing and evaluating these results. Documented evidence should be available to substantiate the outcomes.
 Furthermore, the organisation should assess the performance of information security and the effectiveness of the information security management system.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
@@ -1644,7 +1644,7 @@ Furthermore, the organisation should assess the performance of information secur
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
     <skos:altLabel xml:lang="en">ControlA.8.15</skos:altLabel>
     <skos:prefLabel xml:lang="en">Logging</skos:prefLabel>
-    <skos:definition xml:lang="en">Logs documenting activities, exceptions, faults, and other pertinent events must be generated, stored, safeguarded, and analyzed.</skos:definition>
+    <skos:definition xml:lang="en">Logs documenting activities, exceptions, faults, and other pertinent events must be generated, stored, safeguarded, and analysed.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1817,7 +1817,7 @@ Documented information should be accessible to ensure confidence in the executio
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
     <skos:altLabel xml:lang="en">ControlA.8.2</skos:altLabel>
     <skos:prefLabel xml:lang="en">Privileged access rights</skos:prefLabel>
-    <skos:definition xml:lang="en">The assignment and utilization of privileged access rights must be limited and overseen.</skos:definition>
+    <skos:definition xml:lang="en">The assignment and utilisation of privileged access rights must be limited and overseen.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1945,7 +1945,7 @@ b) interfaces and dependencies between activities carried out by the organisatio
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/TechnologicalControls"/>
     <skos:altLabel xml:lang="en">ControlA.8.23</skos:altLabel>
     <skos:prefLabel xml:lang="en">Web filtering</skos:prefLabel>
-    <skos:definition xml:lang="en">Management of access to external websites should be implemented to minimize exposure to malicious content.</skos:definition>
+    <skos:definition xml:lang="en">Management of access to external websites should be implemented to minimise exposure to malicious content.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1959,7 +1959,7 @@ b) interfaces and dependencies between activities carried out by the organisatio
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/OrganisationalControls"/>
     <skos:altLabel xml:lang="en">ControlA.5.19</skos:altLabel>
     <skos:prefLabel xml:lang="en">Information security in supplier relationships</skos:prefLabel>
-    <skos:definition xml:lang="en">Processes and procedures must be established and executed to manage the information security risks linked with the utilization of suppliers' products or services.</skos:definition>
+    <skos:definition xml:lang="en">Processes and procedures must be established and executed to manage the information security risks linked with the utilisation of suppliers' products or services.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1987,7 +1987,7 @@ b) interfaces and dependencies between activities carried out by the organisatio
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final/PeopleControls"/>
     <skos:altLabel xml:lang="en">ControlA.6.4</skos:altLabel>
     <skos:prefLabel xml:lang="en">Disciplinary process</skos:prefLabel>
-    <skos:definition xml:lang="en">A disciplinary process should be formalized and communicated to take action against personnel and other relevant parties who have violated the information security policy.</skos:definition>
+    <skos:definition xml:lang="en">A disciplinary process should be formalised and communicated to take action against personnel and other relevant parties who have violated the information security policy.</skos:definition>
     <dct:source xml:lang="en">ISO 27001:2022 Control Framework</dct:source>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-21</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
