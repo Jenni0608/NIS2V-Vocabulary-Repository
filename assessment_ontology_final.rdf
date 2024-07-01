@@ -110,7 +110,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
 	    <skos:prefLabel xml:lang="en">Multiple Choice Question #26</skos:prefLabel>
 	    <skos:altLabel xml:lang="en">MCQ.26</skos:altLabel>
-	    <skos:definition xml:lang="en">Are the clocks of information processing systems used by the organisation synchronized to approved time sources?</skos:definition>
+	    <skos:definition xml:lang="en">Are the clocks of information processing systems used by the organisation synchronised to approved time sources?</skos:definition>
 	    <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
 	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -314,7 +314,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ17AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ17AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.17"/>
-	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardized operations across the organisation.</skos:definition>
+	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardised operations across the organisation.</skos:definition>
 	    <skos:prefLabel>MCQ17. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 	</rdf:Description>
@@ -322,7 +322,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ26AnswerA -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ26AnswerA">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.26"/>
-	    <skos:definition xml:lang="en">The clocks of information processing systems used by the organisation are not synchronized to approved time sources, leading to potential discrepancies in timestamps and challenges in correlation of events.</skos:definition>
+	    <skos:definition xml:lang="en">The clocks of information processing systems used by the organisation are not synchronised to approved time sources, leading to potential discrepancies in timestamps and challenges in correlation of events.</skos:definition>
 	    <skos:prefLabel>MCQ26. Not Implemented</skos:prefLabel>
 	    <skos:altLabel>(i)</skos:altLabel>
 	</rdf:Description>
@@ -330,7 +330,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ26AnswerB -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ26AnswerB">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.26"/>
-	    <skos:definition xml:lang="en">There are some efforts to synchronize the clocks of information processing systems to approved time sources, but the process may be inconsistent or not fully comprehensive.</skos:definition>
+	    <skos:definition xml:lang="en">There are some efforts to synchronise the clocks of information processing systems to approved time sources, but the process may be inconsistent or not fully comprehensive.</skos:definition>
 	    <skos:prefLabel>MCQ26. Partially Implemented</skos:prefLabel>
 	    <skos:altLabel>(ii)</skos:altLabel>
 	</rdf:Description>
@@ -338,7 +338,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ26AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ26AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.26"/>
-	    <skos:definition xml:lang="en">The clocks of information processing systems used by the organisation are fully synchronized to approved time sources, ensuring accurate and consistent timestamps for events across the systems.</skos:definition>
+	    <skos:definition xml:lang="en">The clocks of information processing systems used by the organisation are fully synchronised to approved time sources, ensuring accurate and consistent timestamps for events across the systems.</skos:definition>
 	    <skos:prefLabel>MCQ26. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 	</rdf:Description>
@@ -363,7 +363,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ29AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ29AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.29"/>
-	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardized operations across the organisation.</skos:definition>
+	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardised operations across the organisation.</skos:definition>
 	    <skos:prefLabel>MCQ29. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 	</rdf:Description>
@@ -575,7 +575,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #91.2</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.91.2</skos:altLabel>
-    <skos:definition xml:lang="en">Are measures implemented to ensure the protection of off-site assets, safeguarding them from unauthorized access, theft, damage, or other risks that may compromise their integrity, confidentiality, or availability?</skos:definition>
+    <skos:definition xml:lang="en">Are measures implemented to ensure the protection of off-site assets, safeguarding them from unauthorised access, theft, damage, or other risks that may compromise their integrity, confidentiality, or availability?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -989,7 +989,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #81</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.81</skos:altLabel>
-    <skos:definition xml:lang="en">Is the organisation managing the complete life cycle of identities, encompassing activities such as identity creation, authentication, authorization, periodic reviews, modification, and termination, ensuring comprehensive oversight and control over identity-related processes?</skos:definition>
+    <skos:definition xml:lang="en">Is the organisation managing the complete life cycle of identities, encompassing activities such as identity creation, authentication, authorisation, periodic reviews, modification, and termination, ensuring comprehensive oversight and control over identity-related processes?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1007,7 +1007,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #4.5</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.4.5</skos:altLabel>
-    <skos:definition xml:lang="en">Does the organisation evaluate information security risks, including comparing the results of risk analysis with established risk criteria and prioritizing the analysed risks for risk treatment?</skos:definition>
+    <skos:definition xml:lang="en">Does the organisation evaluate information security risks, including comparing the results of risk analysis with established risk criteria and prioritising the analysed risks for risk treatment?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1025,7 +1025,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #97</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.97</skos:altLabel>
-    <skos:definition xml:lang="en">Is the organisation managing the complete life cycle of identities, encompassing activities such as identity creation, authentication, authorization, periodic reviews, modification, and termination, ensuring comprehensive oversight and control over identity-related processes?</skos:definition>
+    <skos:definition xml:lang="en">Is the organisation managing the complete life cycle of identities, encompassing activities such as identity creation, authentication, authorisation, periodic reviews, modification, and termination, ensuring comprehensive oversight and control over identity-related processes?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1151,7 +1151,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #60</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.60</skos:altLabel>
-    <skos:definition xml:lang="en">Is the organisation managing the complete life cycle of identities, encompassing activities such as identity creation, authentication, authorization, periodic reviews, modification, and termination, ensuring comprehensive oversight and control over identity-related processes?</skos:definition>
+    <skos:definition xml:lang="en">Is the organisation managing the complete life cycle of identities, encompassing activities such as identity creation, authentication, authorisation, periodic reviews, modification, and termination, ensuring comprehensive oversight and control over identity-related processes?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1673,7 +1673,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #76</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.76</skos:altLabel>
-    <skos:definition xml:lang="en">Is a disciplinary process formalized and communicated to take actions against personnel and other relevant interested parties who have committed an information security policy violation?</skos:definition>
+    <skos:definition xml:lang="en">Is a disciplinary process formalised and communicated to take actions against personnel and other relevant interested parties who have committed an information security policy violation?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -1709,7 +1709,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #19</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.19</skos:altLabel>
-    <skos:definition xml:lang="en">Does the organisation assess information security events and decide if they are to be categorized as information security incidents?</skos:definition>
+    <skos:definition xml:lang="en">Does the organisation assess information security events and decide if they are to be categorised as information security incidents?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -2069,7 +2069,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #129</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.129</skos:altLabel>
-    <skos:definition xml:lang="en">How does the organisation define and utilize security perimeters to protect areas containing information and associated assets?</skos:definition>
+    <skos:definition xml:lang="en">How does the organisation define and utilise security perimeters to protect areas containing information and associated assets?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -2987,7 +2987,7 @@
     <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <skos:prefLabel xml:lang="en">Multiple Choice Question #124</skos:prefLabel>
     <skos:altLabel xml:lang="en">MCQ.124</skos:altLabel>
-    <skos:definition xml:lang="en">How does the organisation ensure the protection of records from loss, destruction, falsification, unauthorized access, and unauthorized release?</skos:definition>
+    <skos:definition xml:lang="en">How does the organisation ensure the protection of records from loss, destruction, falsification, unauthorised access, and unauthorised release?</skos:definition>
     <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-20</dct:created>
     <dct:contributor>Jenni Parry</dct:contributor>
@@ -3260,14 +3260,14 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.84"/>
     <skos:prefLabel xml:lang="en">MCQ.84 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">The allocation and use of privileged access rights are not restricted or managed, potentially leading to unauthorized access to sensitive systems and data.</skos:definition>
+    <skos:definition xml:lang="en">The allocation and use of privileged access rights are not restricted or managed, potentially leading to unauthorised access to sensitive systems and data.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ86AnswerA">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.86"/>
     <skos:prefLabel xml:lang="en">MCQ.86 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Read and write access to source code, development tools, and software libraries is not appropriately managed, potentially leading to unauthorized modifications, code leaks, or security breaches.</skos:definition>
+    <skos:definition xml:lang="en">Read and write access to source code, development tools, and software libraries is not appropriately managed, potentially leading to unauthorised modifications, code leaks, or security breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ127AnswerA">
@@ -3295,7 +3295,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.86"/>
     <skos:prefLabel xml:lang="en">MCQ.86 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Read and write access to source code, development tools, and software libraries is fully and appropriately managed, ensuring that access is granted only to authorized personnel and activities are monitored and controlled to prevent unauthorized modifications or breaches.</skos:definition>
+    <skos:definition xml:lang="en">Read and write access to source code, development tools, and software libraries is fully and appropriately managed, ensuring that access is granted only to authorised personnel and activities are monitored and controlled to prevent unauthorised modifications or breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ22.1AnswerA">
@@ -3316,14 +3316,14 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.100"/>
     <skos:prefLabel xml:lang="en">MCQ.100 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Data leakage prevention measures are fully applied to systems, networks, and other devices that process, store, or transmit sensitive information, ensuring protection against unauthorized disclosure or leakage of sensitive data.</skos:definition>
+    <skos:definition xml:lang="en">Data leakage prevention measures are fully applied to systems, networks, and other devices that process, store, or transmit sensitive information, ensuring protection against unauthorised disclosure or leakage of sensitive data.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ47AnswerC">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.47"/>
     <skos:prefLabel xml:lang="en">MCQ.47 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Segregation is fully implemented for groups of information services, users, and information systems within the organisation's networks, ensuring controlled access and minimizing the impact of security incidents.</skos:definition>
+    <skos:definition xml:lang="en">Segregation is fully implemented for groups of information services, users, and information systems within the organisation's networks, ensuring controlled access and minimising the impact of security incidents.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ83AnswerC">
@@ -3337,7 +3337,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.34.4"/>
     <skos:prefLabel xml:lang="en">MCQ.34.4 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation fully ensures that externally provided processes, products, or services relevant to the information security management system are controlled, minimizing security risks associated with external dependencies and maintaining the integrity of the management system.</skos:definition>
+    <skos:definition xml:lang="en">The organisation fully ensures that externally provided processes, products, or services relevant to the information security management system are controlled, minimising security risks associated with external dependencies and maintaining the integrity of the management system.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ127AnswerB">
@@ -3358,7 +3358,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.121"/>
     <skos:prefLabel xml:lang="en">MCQ.121 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation has established change management procedures specifically for information processing facilities and information systems. These procedures ensure that changes are effectively managed, minimizing risks of disruptions and ensuring continuity of operations.</skos:definition>
+    <skos:definition xml:lang="en">The organisation has established change management procedures specifically for information processing facilities and information systems. These procedures ensure that changes are effectively managed, minimising risks of disruptions and ensuring continuity of operations.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ34.1AnswerB">
@@ -3414,7 +3414,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.96"/>
     <skos:prefLabel xml:lang="en">MCQ.96 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Information transfer rules, procedures, or agreements are not in place for all types of transfer facilities within the organisation and between the organisation and other parties, potentially leading to unsecure or unauthorized transfer of sensitive information.</skos:definition>
+    <skos:definition xml:lang="en">Information transfer rules, procedures, or agreements are not in place for all types of transfer facilities within the organisation and between the organisation and other parties, potentially leading to unsecure or unauthorised transfer of sensitive information.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ24AnswerC">
@@ -3563,7 +3563,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.85"/>
     <skos:prefLabel xml:lang="en">MCQ.85 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Access to information and other associated assets is not restricted in accordance with the established topic-specific policy on access control, potentially leading to unauthorized access and compromise of sensitive assets.</skos:definition>
+    <skos:definition xml:lang="en">Access to information and other associated assets is not restricted in accordance with the established topic-specific policy on access control, potentially leading to unauthorised access and compromise of sensitive assets.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ97AnswerC">
@@ -3626,7 +3626,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.88"/>
     <skos:prefLabel xml:lang="en">MCQ.88 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">The use of utility programs capable of overriding system and application controls is not restricted or tightly controlled, posing risks of unauthorized system modifications or security breaches.</skos:definition>
+    <skos:definition xml:lang="en">The use of utility programs capable of overriding system and application controls is not restricted or tightly controlled, posing risks of unauthorised system modifications or security breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ116AnswerA">
@@ -3661,7 +3661,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.21"/>
     <skos:prefLabel xml:lang="en">MCQ.21 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">There are some efforts to utilize knowledge gained from information security incidents to strengthen and improve information security controls, but the process may be inconsistent or not fully comprehensive.</skos:definition>
+    <skos:definition xml:lang="en">There are some efforts to utilise knowledge gained from information security incidents to strengthen and improve information security controls, but the process may be inconsistent or not fully comprehensive.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ5.5AnswerA">
@@ -3836,7 +3836,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.124"/>
     <skos:prefLabel xml:lang="en">MCQ.124 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation lacks measures to protect records, leading to risks such as loss, destruction, falsification, unauthorized access, and unauthorized release.</skos:definition>
+    <skos:definition xml:lang="en">The organisation lacks measures to protect records, leading to risks such as loss, destruction, falsification, unauthorised access, and unauthorised release.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ1AnswerB">
@@ -3920,14 +3920,14 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.111"/>
     <skos:prefLabel xml:lang="en">MCQ.111 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation ensures the strict separation and robust security measures for development, testing, and production environments, minimizing risks and ensuring the integrity, confidentiality, and availability of data and systems.</skos:definition>
+    <skos:definition xml:lang="en">The organisation ensures the strict separation and robust security measures for development, testing, and production environments, minimising risks and ensuring the integrity, confidentiality, and availability of data and systems.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ21AnswerA">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.21"/>
     <skos:prefLabel xml:lang="en">MCQ.21 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Knowledge gained from information security incidents is not systematically utilized to strengthen or improve information security controls, resulting in missed opportunities for enhancement.</skos:definition>
+    <skos:definition xml:lang="en">Knowledge gained from information security incidents is not systematically utilised to strengthen or improve information security controls, resulting in missed opportunities for enhancement.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ106.1AnswerC">
@@ -3969,7 +3969,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.100"/>
     <skos:prefLabel xml:lang="en">MCQ.100 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Data leakage prevention measures are not applied to systems, networks, and other devices that process, store, or transmit sensitive information, leaving the data vulnerable to unauthorized disclosure or leakage.</skos:definition>
+    <skos:definition xml:lang="en">Data leakage prevention measures are not applied to systems, networks, and other devices that process, store, or transmit sensitive information, leaving the data vulnerable to unauthorised disclosure or leakage.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ59AnswerC">
@@ -4102,7 +4102,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.76"/>
     <skos:prefLabel xml:lang="en">MCQ.76 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">A disciplinary process to take actions against personnel and other relevant interested parties who have committed an information security policy violation is not formalized or communicated, potentially leading to inconsistent responses and inadequate enforcement of security policies.</skos:definition>
+    <skos:definition xml:lang="en">A disciplinary process to take actions against personnel and other relevant interested parties who have committed an information security policy violation is not formalised or communicated, potentially leading to inconsistent responses and inadequate enforcement of security policies.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ43AnswerA">
@@ -4130,14 +4130,14 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.99"/>
     <skos:prefLabel xml:lang="en">MCQ.99 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Secure authentication technologies and procedures are not implemented based on information access restrictions and the topic-specific policy on access control, resulting in potential vulnerabilities and unauthorized access.</skos:definition>
+    <skos:definition xml:lang="en">Secure authentication technologies and procedures are not implemented based on information access restrictions and the topic-specific policy on access control, resulting in potential vulnerabilities and unauthorised access.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ19AnswerC">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.19"/>
     <skos:prefLabel xml:lang="en">MCQ.19 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation has a well-defined and systematic process for assessing information security events to determine if they should be categorized as incidents, ensuring prompt and accurate incident identification and response.</skos:definition>
+    <skos:definition xml:lang="en">The organisation has a well-defined and systematic process for assessing information security events to determine if they should be categorised as incidents, ensuring prompt and accurate incident identification and response.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ128AnswerB">
@@ -4361,7 +4361,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.22.4"/>
     <skos:prefLabel xml:lang="en">MCQ.22.4 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">There are some indications in the information security policy of a commitment to continual improvement of the information security management system. However, this commitment may not be clearly emphasized or fully integrated into organisational processes.</skos:definition>
+    <skos:definition xml:lang="en">There are some indications in the information security policy of a commitment to continual improvement of the information security management system. However, this commitment may not be clearly emphasised or fully integrated into organisational processes.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ105.1AnswerB">
@@ -4473,14 +4473,14 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.84"/>
     <skos:prefLabel xml:lang="en">MCQ.84 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The allocation and use of privileged access rights are fully restricted and managed, ensuring that only authorized personnel have access to sensitive systems and data, and activities are monitored and audited for compliance.</skos:definition>
+    <skos:definition xml:lang="en">The allocation and use of privileged access rights are fully restricted and managed, ensuring that only authorised personnel have access to sensitive systems and data, and activities are monitored and audited for compliance.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ4.5AnswerA">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.4.5"/>
     <skos:prefLabel xml:lang="en">MCQ.4.5 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation does not effectively evaluate information security risks, failing to compare the results of risk analysis with established risk criteria and prioritize the analysed risks for risk treatment.</skos:definition>
+    <skos:definition xml:lang="en">The organisation does not effectively evaluate information security risks, failing to compare the results of risk analysis with established risk criteria and prioritise the analysed risks for risk treatment.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ95AnswerC">
@@ -4557,7 +4557,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.76"/>
     <skos:prefLabel xml:lang="en">MCQ.76 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">There are some elements of a disciplinary process to take actions against personnel and other relevant interested parties who have committed an information security policy violation, but the process may not be fully formalized or effectively communicated.</skos:definition>
+    <skos:definition xml:lang="en">There are some elements of a disciplinary process to take actions against personnel and other relevant interested parties who have committed an information security policy violation, but the process may not be fully formalised or effectively communicated.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ25AnswerC">
@@ -4599,7 +4599,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.88"/>
     <skos:prefLabel xml:lang="en">MCQ.88 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The use of utility programs capable of overriding system and application controls is fully restricted and tightly controlled, ensuring that such programs are only used by authorized personnel for legitimate purposes and activities are closely monitored to prevent misuse.</skos:definition>
+    <skos:definition xml:lang="en">The use of utility programs capable of overriding system and application controls is fully restricted and tightly controlled, ensuring that such programs are only used by authorised personnel for legitimate purposes and activities are closely monitored to prevent misuse.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ97AnswerB">
@@ -4620,7 +4620,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.4.5"/>
     <skos:prefLabel xml:lang="en">MCQ.4.5 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">There are some efforts by the organisation to evaluate information security risks, including comparing the results of risk analysis with established risk criteria. However, the process may be inconsistent or not fully comprehensive in prioritizing the analysed risks for risk treatment.</skos:definition>
+    <skos:definition xml:lang="en">There are some efforts by the organisation to evaluate information security risks, including comparing the results of risk analysis with established risk criteria. However, the process may be inconsistent or not fully comprehensive in prioritising the analysed risks for risk treatment.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ32AnswerB">
@@ -4690,7 +4690,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.19"/>
     <skos:prefLabel xml:lang="en">MCQ.19 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">There are some efforts to assess information security events to determine if they should be categorized as incidents, but the process may be inconsistent or not fully comprehensive.</skos:definition>
+    <skos:definition xml:lang="en">There are some efforts to assess information security events to determine if they should be categorised as incidents, but the process may be inconsistent or not fully comprehensive.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ127AnswerC">
@@ -4718,7 +4718,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.78"/>
     <skos:prefLabel xml:lang="en">MCQ.78 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Confidentiality or non-disclosure agreements reflecting the organisation's needs for the protection of information are not identified, documented, regularly reviewed, or signed by personnel and other relevant interested parties, potentially exposing sensitive information to unauthorized disclosure.</skos:definition>
+    <skos:definition xml:lang="en">Confidentiality or non-disclosure agreements reflecting the organisation's needs for the protection of information are not identified, documented, regularly reviewed, or signed by personnel and other relevant interested parties, potentially exposing sensitive information to unauthorised disclosure.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ32AnswerC">
@@ -4795,7 +4795,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.79"/>
     <skos:prefLabel xml:lang="en">MCQ.79 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Security measures are fully implemented when personnel are working remotely, ensuring that information accessed, processed, or stored outside the organisation’s premises is adequately protected from unauthorized access or breaches.</skos:definition>
+    <skos:definition xml:lang="en">Security measures are fully implemented when personnel are working remotely, ensuring that information accessed, processed, or stored outside the organisation’s premises is adequately protected from unauthorised access or breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ102AnswerC">
@@ -4823,7 +4823,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.19"/>
     <skos:prefLabel xml:lang="en">MCQ.19 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation lacks a structured process for assessing information security events to determine if they should be categorized as incidents, leading to inconsistencies and potential oversight.</skos:definition>
+    <skos:definition xml:lang="en">The organisation lacks a structured process for assessing information security events to determine if they should be categorised as incidents, leading to inconsistencies and potential oversight.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ105.2AnswerB">
@@ -4879,7 +4879,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.79"/>
     <skos:prefLabel xml:lang="en">MCQ.79 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Security measures are not implemented when personnel are working remotely, leaving information accessed, processed, or stored outside the organisation’s premises vulnerable to unauthorized access or breaches.</skos:definition>
+    <skos:definition xml:lang="en">Security measures are not implemented when personnel are working remotely, leaving information accessed, processed, or stored outside the organisation’s premises vulnerable to unauthorised access or breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ57.1AnswerB">
@@ -4900,7 +4900,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.112.1"/>
     <skos:prefLabel xml:lang="en">MCQ.112.1 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation systematically determines what needs to be monitored and measured, establishes methods for monitoring and measurement that produce comparable and reproducible results, specifies when and by whom monitoring and measurement should be performed, and analyzes and evaluates the results.</skos:definition>
+    <skos:definition xml:lang="en">The organisation systematically determines what needs to be monitored and measured, establishes methods for monitoring and measurement that produce comparable and reproducible results, specifies when and by whom monitoring and measurement should be performed, and analyses and evaluates the results.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ9.2AnswerA">
@@ -4914,7 +4914,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.66"/>
     <skos:prefLabel xml:lang="en">MCQ.66 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems have not been implemented, potentially leading to unauthorized or insecure software installations.</skos:definition>
+    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems have not been implemented, potentially leading to unauthorised or insecure software installations.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ20AnswerB">
@@ -4991,7 +4991,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.129"/>
     <skos:prefLabel xml:lang="en">MCQ.129 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation has clearly defined security perimeters and consistently utilizes them to protect areas containing information and associated assets. This ensures that unauthorized access is prevented, and information security is maintained effectively.</skos:definition>
+    <skos:definition xml:lang="en">The organisation has clearly defined security perimeters and consistently utilises them to protect areas containing information and associated assets. This ensures that unauthorised access is prevented, and information security is maintained effectively.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ130AnswerA">
@@ -5027,7 +5027,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.76"/>
     <skos:prefLabel xml:lang="en">MCQ.76 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">A disciplinary process to take actions against personnel and other relevant interested parties who have committed an information security policy violation is fully formalized and communicated, ensuring consistent enforcement of security policies and accountability for non-compliance.</skos:definition>
+    <skos:definition xml:lang="en">A disciplinary process to take actions against personnel and other relevant interested parties who have committed an information security policy violation is fully formalised and communicated, ensuring consistent enforcement of security policies and accountability for non-compliance.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ38AnswerA">
@@ -5048,7 +5048,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.129"/>
     <skos:prefLabel xml:lang="en">MCQ.129 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">Some effort is made to define security perimeters, but there are inconsistencies or gaps in their utilization, potentially leaving areas containing information and assets vulnerable.</skos:definition>
+    <skos:definition xml:lang="en">Some effort is made to define security perimeters, but there are inconsistencies or gaps in their utilisation, potentially leaving areas containing information and assets vulnerable.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ118AnswerC">
@@ -5272,7 +5272,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.44"/>
     <skos:prefLabel xml:lang="en">MCQ.44 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems have not been implemented, potentially leading to unauthorized or insecure software installations.</skos:definition>
+    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems have not been implemented, potentially leading to unauthorised or insecure software installations.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ56.4AnswerC">
@@ -5335,7 +5335,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.123"/>
     <skos:prefLabel xml:lang="en">MCQ.123 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation has established and implemented appropriate procedures to protect intellectual property rights effectively, safeguarding valuable assets from infringement or unauthorized use.</skos:definition>
+    <skos:definition xml:lang="en">The organisation has established and implemented appropriate procedures to protect intellectual property rights effectively, safeguarding valuable assets from infringement or unauthorised use.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ81AnswerA">
@@ -5349,7 +5349,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.124"/>
     <skos:prefLabel xml:lang="en">MCQ.124 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation has established and implemented robust measures to protect records effectively from risks such as loss, destruction, falsification, unauthorized access, and unauthorized release, ensuring the integrity and confidentiality of sensitive information.</skos:definition>
+    <skos:definition xml:lang="en">The organisation has established and implemented robust measures to protect records effectively from risks such as loss, destruction, falsification, unauthorised access, and unauthorised release, ensuring the integrity and confidentiality of sensitive information.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ117AnswerC">
@@ -5363,7 +5363,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.94"/>
     <skos:prefLabel xml:lang="en">MCQ.94 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Information stored on, processed by, or accessible via user endpoint devices is not adequately protected, leaving it vulnerable to unauthorized access, theft, or manipulation.</skos:definition>
+    <skos:definition xml:lang="en">Information stored on, processed by, or accessible via user endpoint devices is not adequately protected, leaving it vulnerable to unauthorised access, theft, or manipulation.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ75.1AnswerB">
@@ -5391,21 +5391,21 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.44"/>
     <skos:prefLabel xml:lang="en">MCQ.44 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems are fully implemented, ensuring that only authorized and secure software is installed, minimizing security risks.</skos:definition>
+    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems are fully implemented, ensuring that only authorised and secure software is installed, minimising security risks.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ4.5AnswerC">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.4.5"/>
     <skos:prefLabel xml:lang="en">MCQ.4.5 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation fully evaluates information security risks, effectively comparing the results of risk analysis with established risk criteria and prioritizing the analysed risks for risk treatment comprehensively.</skos:definition>
+    <skos:definition xml:lang="en">The organisation fully evaluates information security risks, effectively comparing the results of risk analysis with established risk criteria and prioritising the analysed risks for risk treatment comprehensively.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ130AnswerC">
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.130"/>
     <skos:prefLabel xml:lang="en">MCQ.130 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation has established and consistently follows maintenance procedures to ensure the availability, integrity, and confidentiality of information by maintaining equipment effectively. This ensures that equipment remains reliable and secure, minimizing disruptions and risks to information security.</skos:definition>
+    <skos:definition xml:lang="en">The organisation has established and consistently follows maintenance procedures to ensure the availability, integrity, and confidentiality of information by maintaining equipment effectively. This ensures that equipment remains reliable and secure, minimising disruptions and risks to information security.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ57.2AnswerB">
@@ -5462,7 +5462,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.87"/>
     <skos:prefLabel xml:lang="en">MCQ.87 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Secure authentication technologies and procedures are not implemented based on information access restrictions and the topic-specific policy on access control, resulting in potential vulnerabilities and unauthorized access.</skos:definition>
+    <skos:definition xml:lang="en">Secure authentication technologies and procedures are not implemented based on information access restrictions and the topic-specific policy on access control, resulting in potential vulnerabilities and unauthorised access.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ112.2AnswerA">
@@ -5518,7 +5518,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.47"/>
     <skos:prefLabel xml:lang="en">MCQ.47 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Segregation is not implemented for groups of information services, users, and information systems within the organisation's networks, leading to potential risks of unauthorized access and data breaches.</skos:definition>
+    <skos:definition xml:lang="en">Segregation is not implemented for groups of information services, users, and information systems within the organisation's networks, leading to potential risks of unauthorised access and data breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ11AnswerB">
@@ -5679,7 +5679,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.93"/>
     <skos:prefLabel xml:lang="en">MCQ.93 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Items of equipment containing storage media are not verified to ensure that sensitive data and licensed software have been removed or securely overwritten prior to disposal or re-use, potentially resulting in data breaches or unauthorized use of software.</skos:definition>
+    <skos:definition xml:lang="en">Items of equipment containing storage media are not verified to ensure that sensitive data and licensed software have been removed or securely overwritten prior to disposal or re-use, potentially resulting in data breaches or unauthorised use of software.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ40AnswerC">
@@ -5700,7 +5700,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.66"/>
     <skos:prefLabel xml:lang="en">MCQ.66 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems are fully implemented, ensuring that only authorized and secure software is installed, minimizing security risks.</skos:definition>
+    <skos:definition xml:lang="en">Procedures and measures to securely manage software installation on operational systems are fully implemented, ensuring that only authorised and secure software is installed, minimising security risks.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ22.5AnswerA">
@@ -5798,7 +5798,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.111"/>
     <skos:prefLabel xml:lang="en">MCQ.111 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Development, testing, and production environments are not separated or adequately secured, leading to potential risks such as unauthorized access or data breaches.</skos:definition>
+    <skos:definition xml:lang="en">Development, testing, and production environments are not separated or adequately secured, leading to potential risks such as unauthorised access or data breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ23AnswerA">
@@ -5819,7 +5819,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.124"/>
     <skos:prefLabel xml:lang="en">MCQ.124 - Partially Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(ii)</skos:altLabel>
-    <skos:definition xml:lang="en">Some measures are in place to protect records, but there are inconsistencies or gaps in ensuring comprehensive protection from risks such as loss, destruction, falsification, unauthorized access, and unauthorized release.</skos:definition>
+    <skos:definition xml:lang="en">Some measures are in place to protect records, but there are inconsistencies or gaps in ensuring comprehensive protection from risks such as loss, destruction, falsification, unauthorised access, and unauthorised release.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ105.2AnswerC">
@@ -5896,7 +5896,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.21"/>
     <skos:prefLabel xml:lang="en">MCQ.21 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Knowledge gained from information security incidents is actively and systematically utilized to strengthen and improve information security controls, facilitating continuous enhancement and adaptation to emerging threats.</skos:definition>
+    <skos:definition xml:lang="en">Knowledge gained from information security incidents is actively and systematically utilised to strengthen and improve information security controls, facilitating continuous enhancement and adaptation to emerging threats.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ113AnswerA">
@@ -5945,7 +5945,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.20"/>
     <skos:prefLabel xml:lang="en">MCQ.20 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Information security incidents are consistently responded to in strict accordance with documented procedures, ensuring a standardized and effective approach to incident response across the organisation.</skos:definition>
+    <skos:definition xml:lang="en">Information security incidents are consistently responded to in strict accordance with documented procedures, ensuring a standardised and effective approach to incident response across the organisation.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ123AnswerB">
@@ -6008,7 +6008,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.93"/>
     <skos:prefLabel xml:lang="en">MCQ.93 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Items of equipment containing storage media are fully verified to ensure that any sensitive data and licensed software have been removed or securely overwritten prior to disposal or re-use, mitigating the risk of data breaches and unauthorized use of software.</skos:definition>
+    <skos:definition xml:lang="en">Items of equipment containing storage media are fully verified to ensure that any sensitive data and licensed software have been removed or securely overwritten prior to disposal or re-use, mitigating the risk of data breaches and unauthorised use of software.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ4.2AnswerA">
@@ -6239,7 +6239,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.129"/>
     <skos:prefLabel xml:lang="en">MCQ.129 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">The organisation lacks defined security perimeters to protect areas containing information and associated assets, leading to potential unauthorized access and security breaches.</skos:definition>
+    <skos:definition xml:lang="en">The organisation lacks defined security perimeters to protect areas containing information and associated assets, leading to potential unauthorised access and security breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ105.1AnswerA">
@@ -6274,7 +6274,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.31"/>
     <skos:prefLabel xml:lang="en">MCQ.31 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">The use of resources is consistently monitored, and adjustments are promptly made in line with current and expected capacity requirements, ensuring optimal resource utilization and performance.</skos:definition>
+    <skos:definition xml:lang="en">The use of resources is consistently monitored, and adjustments are promptly made in line with current and expected capacity requirements, ensuring optimal resource utilisation and performance.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ1AnswerC">
@@ -6288,7 +6288,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.67"/>
     <skos:prefLabel xml:lang="en">MCQ.67 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Segregation is fully implemented for groups of information services, users, and information systems within the organisation's networks, ensuring controlled access and minimizing the impact of security incidents.</skos:definition>
+    <skos:definition xml:lang="en">Segregation is fully implemented for groups of information services, users, and information systems within the organisation's networks, ensuring controlled access and minimising the impact of security incidents.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ57.2AnswerC">
@@ -6309,7 +6309,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.85"/>
     <skos:prefLabel xml:lang="en">MCQ.85 - Fully Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(iii)</skos:altLabel>
-    <skos:definition xml:lang="en">Access to information and other associated assets is fully restricted in accordance with the established topic-specific policy on access control, ensuring that access is granted only to authorized individuals based on defined criteria and requirements.</skos:definition>
+    <skos:definition xml:lang="en">Access to information and other associated assets is fully restricted in accordance with the established topic-specific policy on access control, ensuring that access is granted only to authorised individuals based on defined criteria and requirements.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ34.3AnswerA">
@@ -6358,7 +6358,7 @@
     <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.67"/>
     <skos:prefLabel xml:lang="en">MCQ.67 - Not Implemented</skos:prefLabel>
     <skos:altLabel xml:lang="en">(i)</skos:altLabel>
-    <skos:definition xml:lang="en">Segregation is not implemented for groups of information services, users, and information systems within the organisation's networks, leading to potential risks of unauthorized access and data breaches.</skos:definition>
+    <skos:definition xml:lang="en">Segregation is not implemented for groups of information services, users, and information systems within the organisation's networks, leading to potential risks of unauthorised access and data breaches.</skos:definition>
   </rdf:Description>
   
   <rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ39AnswerA">
@@ -6705,7 +6705,7 @@
 	    <rdfs:subClassOf rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
 	    <skos:prefLabel xml:lang="en">Multiple Choice Question #91.2</skos:prefLabel>
 	    <skos:altLabel xml:lang="en">MCQ.91.2</skos:altLabel>
-	    <skos:definition xml:lang="en">Are measures implemented to ensure the protection of off-site assets, safeguarding them from unauthorized access, theft, damage, or other risks that may compromise their integrity, confidentiality, or availability?</skos:definition>
+	    <skos:definition xml:lang="en">Are measures implemented to ensure the protection of off-site assets, safeguarding them from unauthorised access, theft, damage, or other risks that may compromise their integrity, confidentiality, or availability?</skos:definition>
 	    <skos:broader rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/AssessmentQuestion"/>
 	    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</dct:created>
 	    <dct:contributor>Jenni Parry</dct:contributor>
@@ -6732,7 +6732,7 @@
 	
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ13AnswerB">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.13"/>
-	    <skos:definition xml:lang="en">There are ad-hoc or inconsistent efforts to establish and maintain contact with relevant authorities regarding information security matters, but it lacks a formalized or systematic approach.</skos:definition>
+	    <skos:definition xml:lang="en">There are ad-hoc or inconsistent efforts to establish and maintain contact with relevant authorities regarding information security matters, but it lacks a formalised or systematic approach.</skos:definition>
 	    <skos:prefLabel>MCQ13. Partially Implemented</skos:prefLabel>
 		<skos:altLabel>(ii)</skos:altLabel>
 	</rdf:Description>
@@ -6819,7 +6819,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ41AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ41AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.41"/>
-	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardized operations across the organisation.</skos:definition>
+	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardised operations across the organisation.</skos:definition>
 	    <skos:prefLabel>MCQ41. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 	</rdf:Description>
@@ -6923,7 +6923,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ58AnswerA -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ58AnswerA">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.58"/>
-	    <skos:definition xml:lang="en">Clear desk rules for papers and removable storage media, as well as clear screen rules for information processing facilities, are not defined or appropriately enforced, leading to potential security breaches and unauthorized access to sensitive information.</skos:definition>
+	    <skos:definition xml:lang="en">Clear desk rules for papers and removable storage media, as well as clear screen rules for information processing facilities, are not defined or appropriately enforced, leading to potential security breaches and unauthorised access to sensitive information.</skos:definition>
 	    <skos:prefLabel>MCQ58. Not Implemented</skos:prefLabel>
 	    <skos:altLabel>(i)</skos:altLabel>
 	</rdf:Description>
@@ -6963,7 +6963,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ68AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ68AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.68"/>
-	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardized operations across the organisation.</skos:definition>
+	    <skos:definition xml:lang="en">Operating procedures for information processing facilities are comprehensively documented and readily available to all personnel who require them, ensuring efficient and standardised operations across the organisation.</skos:definition>
 	    <skos:prefLabel>MCQ68. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 	</rdf:Description>
@@ -6988,7 +6988,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ72AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ72AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.72"/>
-	    <skos:definition xml:lang="en">Conflicting duties and conflicting areas of responsibility are fully segregated, minimizing the risk of fraud or errors by ensuring appropriate separation of duties and responsibilities.</skos:definition>
+	    <skos:definition xml:lang="en">Conflicting duties and conflicting areas of responsibility are fully segregated, minimising the risk of fraud or errors by ensuring appropriate separation of duties and responsibilities.</skos:definition>
 	    <skos:prefLabel>MCQ72. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 	</rdf:Description>
@@ -7092,7 +7092,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ91.2AnswerA -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ91.2AnswerA">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.91.2"/>
-	    <skos:definition xml:lang="en">Measures to ensure the protection of off-site assets from unauthorized access, theft, damage, or other risks are not implemented, leaving assets vulnerable to security breaches or loss.</skos:definition>
+	    <skos:definition xml:lang="en">Measures to ensure the protection of off-site assets from unauthorised access, theft, damage, or other risks are not implemented, leaving assets vulnerable to security breaches or loss.</skos:definition>
 	    <skos:prefLabel>MCQ91.2. Not Implemented</skos:prefLabel>
 	    <skos:altLabel>(i)</skos:altLabel>
 	</rdf:Description>
@@ -7100,7 +7100,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ91.2AnswerB -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ91.2AnswerB">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.91.2"/>
-	    <skos:definition xml:lang="en">There are some measures in place to ensure the protection of off-site assets from unauthorized access, theft, damage, or other risks, but the measures may be inconsistent or not fully comprehensive.</skos:definition>
+	    <skos:definition xml:lang="en">There are some measures in place to ensure the protection of off-site assets from unauthorised access, theft, damage, or other risks, but the measures may be inconsistent or not fully comprehensive.</skos:definition>
 	    <skos:prefLabel>MCQ91.2. Partially Implemented</skos:prefLabel>
 	    <skos:altLabel>(ii)</skos:altLabel>
 	</rdf:Description>
@@ -7108,7 +7108,7 @@
 	<!-- https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ91.2AnswerC -->
 	<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ91.2AnswerC">
 	    <rdf:type rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final/MCQ.91.2"/>
-	    <skos:definition xml:lang="en">Measures to ensure the protection of off-site assets from unauthorized access, theft, damage, or other risks are fully implemented, safeguarding the integrity, confidentiality, and availability of assets even when they are located outside the organisation's premises.</skos:definition>
+	    <skos:definition xml:lang="en">Measures to ensure the protection of off-site assets from unauthorised access, theft, damage, or other risks are fully implemented, safeguarding the integrity, confidentiality, and availability of assets even when they are located outside the organisation's premises.</skos:definition>
 	    <skos:prefLabel>MCQ91.2. Fully Implemented</skos:prefLabel>
 	    <skos:altLabel>(iii)</skos:altLabel>
 </rdf:Description>
