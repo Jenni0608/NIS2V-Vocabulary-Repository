@@ -1156,7 +1156,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -1174,7 +1174,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Information Security Intergradation</skos:prefLabel>
@@ -1190,7 +1190,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
@@ -1210,7 +1210,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PlanningControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PlanningControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Information Security Objectives and Planning</skos:prefLabel>
@@ -1226,7 +1226,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Incident Knowledge Application</skos:prefLabel>
@@ -1242,7 +1242,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PeopleControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Remote Work Security Protocols</skos:prefLabel>
@@ -1258,7 +1258,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Source Code and Development Access Control</skos:prefLabel>
@@ -1275,7 +1275,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/LeadershipControls"/>
+        <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/LeadershipControls"/>
         <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
         <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
         <skos:prefLabel xml:lang="en">Information Security Role Delegation</skos:prefLabel>
@@ -1301,7 +1301,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">ICT and Supply Chain Vigilance</skos:prefLabel>
@@ -1325,7 +1325,7 @@ DPV: Purposes associated with manage orders, payment, evaluation, and prospectin
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PeopleControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -1352,7 +1352,7 @@ Data Protection Training - DPV: Training intended to increase knowledge regardin
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -1378,7 +1378,7 @@ Password Authentication - DPV: Use of passwords to perform authentication</skos:
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Acceptable Use Policy</skos:prefLabel>
@@ -1401,7 +1401,7 @@ DPV: Policy regarding security of information</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Privileged Access Management</skos:prefLabel>
@@ -1424,7 +1424,7 @@ DPV: Procedures related to security roles</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2h"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Cryptography Policy</skos:prefLabel>
@@ -1447,7 +1447,7 @@ DPV: Management of cryptographic keys, including their generation, storage, asse
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Independent Security Review</skos:prefLabel>
@@ -1469,7 +1469,7 @@ Cybersecurity Assessment - DPV: Assessment of cybersecurity capabilities in term
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -1494,7 +1494,7 @@ Security Knowledge Training - DPV: Training intended to increase knowledge regar
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Supplier Security Requirements Management</skos:prefLabel>
@@ -1520,7 +1520,7 @@ DPV - Third Party Contract: Creation, completion, fulfilment, or performance of 
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/SupportControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/SupportControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Awareness Training</skos:prefLabel>
@@ -1546,7 +1546,7 @@ Data Protection Training - DPV: Training intended to increase knowledge regardin
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Endpoint Device Security Measures</skos:prefLabel>
@@ -1570,7 +1570,7 @@ DPV: Security implemented at or through operating systems</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PhysicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Storage Media Management</skos:prefLabel>
@@ -1595,7 +1595,7 @@ Storage Duration - DPV: Duration or temporal limitation on storage of data</skos
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -1637,7 +1637,7 @@ Network Security Protocols - DPV: Security implemented at or over networks proto
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 e: Security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure</skos:note>
@@ -1659,7 +1659,7 @@ DPV: Methods that assess or discover vulnerabilities in a system</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 a: Policies on risk analysis and information system security</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1679,7 +1679,7 @@ DPV: Contractual terms governing data handling within or with an entity</skos:no
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 g: Basic computer hygiene practices and cybersecurity training</skos:note>
@@ -1701,7 +1701,7 @@ DPV: Purposes associated with conducting or enforcing access control as a form o
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 c: Business continuity, such as backup management and disaster recovery, and crisis management</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1721,7 +1721,7 @@ DPV: Protocols or plans for backing up of data</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 f: Policies and procedures to assess the effectiveness of cybersecurity risk management measures</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1741,7 +1741,7 @@ Compliance Monitoring - DPV: Monitoring of compliance (e.g. internal policy, reg
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PeopleControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 i: Human resources security, access control policies and asset management;</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1761,7 +1761,7 @@ DPV: A set of rules or procedures outlining the norms and practices for conducti
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 c: Business continuity, such as backup management and disaster recovery, and crisis management</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1781,7 +1781,7 @@ DPV: Monitoring of activities including assessing whether they have been success
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 e: Security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1801,7 +1801,7 @@ DPV: Security implemented at or over networks protocols</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 a: Policies on risk analysis and information system security</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1821,7 +1821,7 @@ DPV: Policy regarding security of information</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PerformanceEvaluationControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 f: Policies and procedures to assess the effectiveness of cybersecurity risk management measures</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1842,7 +1842,7 @@ DPV: Monitoring of activities including assessing whether they have been success
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 e: Security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1862,7 +1862,7 @@ DPV: Security implemented at or over web-based protocols</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 e: Security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1883,7 +1883,7 @@ DPV: Security implemented at or over networks protocols</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PhysicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 i: Human resources security, access control policies and asset management;</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1903,7 +1903,7 @@ DPV: Access control applied for physical access e.g. premises or equipment</skos
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PhysicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PhysicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 i: Human resources security, access control policies and asset management;</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1925,7 +1925,7 @@ DPV: to remove data from existence i.e. without the possibility of retrieval
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2f"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PerformanceEvaluationControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PerformanceEvaluationControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 f: Policies and procedures to assess the effectiveness of cybersecurity risk management measures</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1945,7 +1945,7 @@ DPV: a procedure or process that reviews the correctness and validity of other p
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OperationControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OperationControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 a: Policies on risk analysis and information system security</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1965,7 +1965,7 @@ DPV: Measures intended to mitigate, minimise, or prevent risk.</skos:note>
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 j: The use of multi-factor authentication or continuous authentication solutions, secured voice, video and text communications and secured emergency communications systems within the entity, where appropriate</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -1986,7 +1986,7 @@ DPV: Represents a safeguard used for data transfer. Can include technical or org
     <dct:contributor>Jenni Parry</dct:contributor>
     <rdfs:isDefinedBy rdf:resource="http://JP_ontology.org/nis2v"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/ContextControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/ContextControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:note xml:lang="en">This NIS2V Term aligns with Article 21.2 a: Policies on risk analysis and information system security</skos:note>
     <skos:note xml:lang="en">DPV Mapping Coverage: Narrower Match</skos:note>
@@ -2008,7 +2008,7 @@ DPV: Purposes associated with conducting activities and functions for governance
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OperationControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OperationControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -2030,7 +2030,7 @@ DPV: Purposes associated with conducting activities and functions for governance
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2e"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -2052,7 +2052,7 @@ Operating System Security is a broader concept that encompasses various measures
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Utility Program Access Restrictions</skos:prefLabel>
@@ -2073,7 +2073,7 @@ DPV: Procedures related to security roles</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">ICT Continuity Management</skos:prefLabel>
@@ -2092,7 +2092,7 @@ DPV: Procedures related to security roles</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Security Logging and Analysis</skos:prefLabel>
@@ -2112,7 +2112,7 @@ DPV: Policy for logging of information</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Incident Response Management</skos:prefLabel>
@@ -2132,7 +2132,7 @@ DPV: Procedures related to management of incidents</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Access Control Policy</skos:prefLabel>
@@ -2153,7 +2153,7 @@ The term Restrict broadly covers the action of imposing limitations on access, w
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Data Leakage Prevention  </skos:prefLabel>
@@ -2182,7 +2182,7 @@ DPV: Measures associated with management of data security.</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Asset Management Procedures</skos:prefLabel>
@@ -2202,7 +2202,7 @@ DPV: Measures associated with management of data security.</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Third Party Security Procedures</skos:prefLabel>
@@ -2221,7 +2221,7 @@ DPV: Measures associated with management of data security.</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2c"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Disaster Recovery Procedures</skos:prefLabel>
@@ -2240,7 +2240,7 @@ DPV: Measures associated with management of data security.</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OperationControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OperationControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Information Security Risk Assessment Implementation</skos:prefLabel>
@@ -2260,7 +2260,7 @@ Risk Assessment - DPV: Assessment involving identification, analysis, and evalua
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/TechnologicalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/TechnologicalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Activity Monitoring</skos:prefLabel>
@@ -2280,7 +2280,7 @@ Activity Monitoring is defined in DPV as Monitoring of activities including asse
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2j"/>
@@ -2303,7 +2303,7 @@ Activity Monitoring is defined in DPV as Monitoring of activities including asse
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
@@ -2324,7 +2324,7 @@ Activity Monitoring is defined in DPV as Monitoring of activities including asse
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2d"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Supply Chain Diligence</skos:prefLabel>
@@ -2344,7 +2344,7 @@ DPV: Purposes associated with manage orders, payment, evaluation, and prospectin
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Intellectual Property Rights</skos:prefLabel>
@@ -2363,7 +2363,7 @@ DPV: Purposes associated with manage orders, payment, evaluation, and prospectin
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/InformationSecurityControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Information Security Policy Management</skos:prefLabel>
@@ -2384,7 +2384,7 @@ DPV: Policy regarding security of information</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2g"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/OrganisationalControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/OrganisationalControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Protection of Records</skos:prefLabel>
@@ -2403,7 +2403,7 @@ DPV: Policy regarding security of information</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2b"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PeopleControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Security Event Reporting Mechanism</skos:prefLabel>
@@ -2423,7 +2423,7 @@ DPV: Notification of information about security incident(s)</skos:note>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2i"/>
-    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/PeopleControls"/>
+    <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/PeopleControls"/>
     <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
     <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
     <skos:prefLabel xml:lang="en">Non-Disclosure Agreement (NDA)</skos:prefLabel>
@@ -2443,7 +2443,7 @@ DPV: Notification of information about security incident(s)</skos:note>
       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/Article_21.2a"/>
-      <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/LeadershipControls"/>
+      <rdfs:subClassOf rdf:resource="http://JP_ontology.org/iso27001/LeadershipControls"/>
       <rdfs:subClassOf rdf:resource="http://JP_ontology.org/nis2v/NIS2VTerms"/>
       <skos:altLabel xml:lang="en">NIS2V Term</skos:altLabel>
       <skos:prefLabel xml:lang="en">Information Security Policy</skos:prefLabel>
@@ -2460,5 +2460,3 @@ DPV: Notification of information about security incident(s)</skos:note>
    </rdf:Description>
 
 </rdf:RDF>
-
-
