@@ -26,26 +26,52 @@
     ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-    <rdf:Description rdf:about="http://JP_ontology.org/nis2v">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-        <dct:title>NIS2 Vocabulary</dct:title>
-        <dct:abstract>NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.</dct:abstract>
-        <dct:description>This ontology will extend DPV and utilize it to perform a NIS2 gap analysis against ISO 27001:2022 controls framework (89 controls) and ENISA Minimum Security Measures for Operators of Essential Services (30 controls). Data Privacy Vocabulary (DPV) provides a comprehensive, standardized set of terms to describe GDPR, a number of these terms have been included (SKOS mappings) to describe the NIS2 Cybersecurity risk-management measures.</dct:description>
-        <dct:creator>Jenni Parry</dct:creator>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-08</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-24</dct:modified>
-        <dct:identifier rdf:resource="http://JP_ontology.org/nis2v"/>
-        <dct:identifier rdf:resource="https://doi.org/10.5281/zenodo.11620548"/>
-		<dct:publisher>UCD</dct:publisher>
-        <dct:importedFrom rdf:resource="http://JP_ontology.org/assessment"/>
-        <dct:importedFrom rdf:resource="http://JP_ontology.org/iso27001"/>
-        <dct:extends rdf:resource="https://w3c.github.io/dpv/dpv/"/>
-        <rdfs:seeAlso rdf:resource="http://JP_ontology.org/nis2v/documentation"/>
-		<dct:hasFormat rdf:resource="https://github.com/Jenni0608/NIS2V-Vocabulary-Repository/blob/main/NIS2V_Vocabulary/nis2v_ontology_final%20-%20v5.rdf"/>
-        <dct:format>application/rdf+xml</dct:format>
-        <dct:title>nis2v_ontology_final-v5.rdf</dct:title>
-        <dct:extent>215</dct:extent> <!-- Replace with actual file size if known -->
-    </rdf:Description>
+<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct:title>NIS2 Vocabulary</dct:title>
+    <dct:abstract>NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.</dct:abstract>
+    <dct:description>This ontology will extend DPV and utilize it to perform a NIS2 gap analysis against ISO 27001:2022 controls framework (89 controls) and ENISA Minimum Security Measures for Operators of Essential Services (30 controls). Data Privacy Vocabulary (DPV) provides a comprehensive, standardized set of terms to describe GDPR, a number of these terms have been included (SKOS mappings) to describe the NIS2 Cybersecurity risk-management measures.</dct:description>
+    <dct:creator>Jenni Parry</dct:creator>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-08</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-24</dct:modified>
+    <dct:identifier rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final"/>
+    <dct:identifier rdf:resource="https://doi.org/10.5281/zenodo.11620548"/>
+    <dct:publisher>UCD</dct:publisher>
+    <dct:importedFrom rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/assessment_ontology_final"/>
+    <dct:importedFrom rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/ISO27001_ontology_final"/>
+    <dct:extends rdf:resource="https://w3c.github.io/dpv/dpv/"/>
+    <rdfs:seeAlso rdf:resource="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final/documentation"/>
+    <dct:hasFormat rdf:resource="https://github.com/Jenni0608/NIS2V-Vocabulary-Repository/blob/main/NIS2V_Vocabulary/nis2v_ontology_final%20-%20final.rdf"/>
+    <dct:format>application/rdf+xml</dct:format>
+    <dct:title>nis2v_ontology_final - final.rdf</dct:title>
+    <dct:extent>215</dct:extent> <!-- Replace with actual file size if known -->
+    <dct:summary>NIS2 Vocabulary describes cybersecurity measures aligned with NIS2 Directive and ISO 27001:2022.</dct:summary>
+    <dct:keywords>NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology</dct:keywords>
+</rdf:Description>
+	
+
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // NIS2V Ontology - Dublin Core Metadata
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+-->
+<rdf:Description rdf:about="https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct:title>NIS2 Vocabulary</dct:title>
+    <dct:creator>Jenni Parry</dct:creator>
+    <dct:description>NIS2V Vocabulary extends DPV to describe the NIS2 Cybersecurity risk-management measures (Article 21) mapped against ISO 27001:2022 control framework.</dct:description>
+    <dct:publisher>UCD</dct:publisher>
+    <dct:date>2024-04-08</dct:date>
+    <dct:format>application/rdf+xml</dct:format>
+    <dct:identifier>https://jenni0608.github.io/NIS2V-Vocabulary-Repository/nis2v_Ontology_Final</dct:identifier>
+    <dct:source>https://doi.org/10.5281/zenodo.11620548</dct:source>
+    <dct:subject>NIS2, Cybersecurity, ISO 27001, DPV, Risk Management, Ontology</dct:subject>
+    <dct:language>en</dct:language>
+</rdf:Description>
+
+
 
 <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
